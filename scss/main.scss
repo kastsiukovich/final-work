@@ -269,13 +269,13 @@ header {
 .first-container .top .adress{
     align-self: center;
 }
-.first-container .top .adress p{
+.first-container .top .adress a:first-child{
     font-family: 'Poppins';
     font-weight: 600;
     font-size: 12px;
     line-height: 18px;
     color: #ACACAC;
-    
+    text-decoration: none;
 
 }
 .first-container .top .adress a{
