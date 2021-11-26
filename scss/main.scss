@@ -363,8 +363,9 @@ header {
     /* box-sizing: border-box; */
     outline: none;
 }
-.first-container .my-search .gg botton{
-    padding-right: 26px;
+.first-container .my-search .gg button{
+    margin-right: 26px;
+    background-color: rgb(245, 247, 255);
 }
 .first-container .my-search #x {
     margin-left: 15px;
@@ -886,13 +887,14 @@ header hr{
     transform: scale(1.05);
 }
 
-.three-container .cards .card-2 h5, .four-container .cards .card-2 h5, .five-container .cards .card-2 h5, .six-container .cards .card-2 h5{
+.three-container .cards .card-2 div, .four-container .cards .card-2 div, .five-container .cards .card-2 div, .six-container .cards .card-2 div{
     font-family: 'Poppins';
     font-weight: bold;
     font-size: 22px;
     line-height: 130%;
     color: #FFFFFF;
-    width: 234px;
+    // width: 234px;
+    width: 100%;
     margin-bottom: 97px;
    
 }
@@ -961,7 +963,7 @@ header hr{
     height: 25px;
     margin-bottom: 22px;
 }
-.five-container .cards .card-2 h5{
+.five-container .cards .card-2 div{
     margin-bottom: 122px;
 }
 /*six section*/
@@ -1676,6 +1678,11 @@ footer .footer-content-bottom .items .item-2{
 }
 .cotalog .sidebar .sidebar-bottom-advertisement{
     margin-top: 7px;
+    display: flex;
+    justify-content: center;
+}
+.cotalog .sidebar .sidebar-bottom-advertisement .bot-img{
+    width: 230px;
 }
 .cotalog .content .search-results{
     display: flex;
@@ -2374,6 +2381,9 @@ footer .footer-content-bottom .items .item-2{
     .first-container .my-search.show{
         width: 73%;
     }
+    .five-container .cards .card-2 div{
+        width: 100%;
+    }
 
     /*page-2*/
     .advertising .advertising-page-2{
@@ -2801,7 +2811,7 @@ footer .footer-content-bottom .items .item-2{
         margin-left: 6%;
     }
     .wraper-bg-images{
-        height: 71vh;
+        height: 80vh;
         background-position-x: 100%;
     }
     .descr .descr-content .descr-left .way-page-3, .descr .descr-right .icon{
@@ -2891,9 +2901,12 @@ footer .footer-content-bottom .items .item-2{
         width: 100%;
         justify-content: space-around;
     }
-
+    .future .future-sect-4{
+        padding-bottom: 51px;
+    }
     .future .future-sect-4 h5, .future .future-sect-4 p{
        width: auto;
+       padding-bottom: 20px;
     } 
     .future .img-height{
         height: 400px;
@@ -2901,7 +2914,7 @@ footer .footer-content-bottom .items .item-2{
     }
     .wraper-bg-images{
         background-position-y: 373px;
-        height: 77vh;
+        height: 86vh;
     }
     
 }
@@ -2997,7 +3010,7 @@ footer .footer-content-bottom .items .item-2{
     .products-container .cards .card .price-p, .three-container .cards .card .price-p, .four-container .cards .card .price-p, .four-container .cards .card h4, .five-container .cards .card .price-p, .five-container .cards .card h4, .six-container .cards .card .price-p, .six-container .cards .card h4{
         text-align: center;
     }
-    .three-container .cards .custome-builds-3, .four-container .cards .custome-builds-4, .five-container .cards .custome-builds-5, .six-container .cards .custome-builds-6, .three-container .cards .card-2 h5, .four-container .cards .card-2 h5, .five-container .cards .card-2 h5, .six-container .cards .card-2 h5{
+    .three-container .cards .custome-builds-3, .four-container .cards .custome-builds-4, .five-container .cards .custome-builds-5, .six-container .cards .custome-builds-6, .three-container .cards .card-2 div, .four-container .cards .card-2 div, .five-container .cards .card-2 div, .six-container .cards .card-2 div{
         width: 100%;
     }
     .oooo.swiper-pagination {
@@ -3333,7 +3346,7 @@ footer .footer-content-bottom .items .item-2{
     .wraper-bg-images{
         background-position-y: 452px;
         background-position-y: 452px;
-        height: 80vh;
+        height: 87vh;
     }
     .sorting h2, .descr .descr-left h1{
         font-size: 25px;

@@ -79,11 +79,11 @@
                         <li><a href="index-2.html" target="a">All Other Products</a></li>
                         <li><a href="index-2.html" target="a">Repairs</a></li>
                         <li><a class="button" href="index-2.html" target="a">Our Deals</a></li>
-                        <span id="close" class="hide" >
-                            x
-                        </span>
+                        
                     </ul>
-
+                    <span id="close" class="hide" >
+                        x
+                    </span>
                     <ul class="search">
                         <li class="gg-search"><a href="#"><img src="./images/gg-search.svg" alt="gg-search"></a></li>
                         <li class="group"><a href="#"><img src="./images/group-54.svg" alt="group-54"></a></li>
@@ -128,7 +128,7 @@
                 <div class="my-search center">
                     <form action="#" class="gg">
                         <input name="search" type="text" placeholder="Search entiere store here..." autofocus>
-                        <botton type="submit"><img src="./images/gg-search.svg"></botton>
+                        <button type="submit"><img src="./images/gg-search.svg"></button>
                     </form>
                     <img id="x" src="./images/gg-x.svg" alt="gg-x">
                 </div>
@@ -181,13 +181,13 @@
                             <li class="breadcrumb-item active item " aria-current="page">MSI WS Series</li>
                         </ol>
                     </nav>
-                    <h1>
+                    <h1 class="wow animate__animated animate__flip">
                         MSI MPG Trident 3
                     </h1>
-                    <h6>
+                    <h6 class="wow animate__animated animate__lightSpeedInLeft" data-wow-delay=".4s">
                         Be the first to review this product
                     </h6>
-                    <p class="information">
+                    <p class="wow information animate__animated animate__lightSpeedInLeft" data-wow-delay=".6s">
                         MSI MPG Trident 3 10SC-005AU Intel i7 10700F, 2060 SUPER, 16GB RAM, 512GB SSD, 2TB HDD, Windows 10 Home, Gaming Keyboard and Mouse 3 Years Warranty Gaming Desktop
                     </p>
                     <div class="circkle">
@@ -331,23 +331,23 @@
         <section class="bg-features">
             <div class="center4">
                 <div class="title">
-                    <h4>Featues</h4>
-                    <p>The MPG series brings out the best in gamers by allowing full expression in color with advanced RGB lighting control and synchronization.</p>
+                    <h4 class="wow animate__animated animate__zoomInLeft" data-wow-delay=".4s">Featues</h4>
+                    <p class="wow animate__animated animate__zoomInRight" data-wow-delay=".4s">The MPG series brings out the best in gamers by allowing full expression in color with advanced RGB lighting control and synchronization.</p>
                 </div>
                 <div class="cards-features">
-                    <a class="card-features" href="index-2.html">
+                    <a class="wow card-features animate__animated animate__slideInUp" data-wow-delay="0s" href="index-2.html">
                         <img src="./images/page-3-cards-features-img1.svg" alt="features-img1">
                         <p><span> Intel® Core™ i7 </span>processor with the upmost computing power to bring you an unparalleled gaming experience.</p>
                     </a>
-                    <a class="card-features" href="index-2.html">
+                    <a class="wow card-features animate__animated animate__slideInUp" data-wow-delay=".2s" href="index-2.html">
                         <img src="./images/page-3-cards-features-img2.svg" alt="features-img2">
                         <p>The new <span>GeForce® RTX SUPER™</span>  Series has more cores and higher clocks for superfast performance compared to previous-gen GPUs.</p>
                     </a>
-                    <a class="card-features" href="index-2.html">
+                    <a class="wow card-features animate__animated animate__slideInUp" data-wow-delay=".4s" href="index-2.html">
                         <img src="./images/page-3-cards-features-img3.svg" alt="features-img3">
                         <p>Unleash the full potential with the latest <span> SSD technology</span>, the NVM Express. 6 times faster than traditional SATA SSD.</p>
                     </a>
-                    <a class="card-features" href="index-2.html">
+                    <a class="wow card-features animate__animated animate__slideInUp" data-wow-delay=".8s" href="index-2.html">
                         <img src="./images/page-3-cards-features-img4.svg" alt="features-img4">
                         <p>Featuring the latest <span> 10th Gen Intel® Core™</span> processors, memory can support up to DDR4 2933MHz to delivers an unprecedented gaming experience.</p>
                     </a>
@@ -490,16 +490,7 @@
     <!-- <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.1/dist/js/bootstrap.min.js" integrity="sha384-skAcpIdS7UcVUC05LJ9Dxay8AXcDYfBJqt1CJ85S/CFujBsIzCIv+l9liuYLaMQ/" crossorigin="anonymous"></script> -->
 
     <script src="lib/wow.min.js"></script>
-    <script src="lib/wow.min.js"> 
-        const wow = new WOW({
-        boxClass: 'wow', /* класс, который необходим для работы wow.js */
-        animateClass: 'animate__animated', /* класс, который будет автоматически добавляться анимируемым элементам при прокрутке страницы */
-        offset: 30, /* по-умолчанию установлено значение 0, то есть как только при прокрутке страницы, элемент достигает низа окна браузера проигрываться анимация, в данном случае анимация начнется на 30px выше от низа окна браузера */
-        mobile: true, /* если true, то на мобильных тоже будет анимация, если false, то на мобильных анимация отключается */
-        live: true /* если true, то анимация будет работать даже на динамически добавляемых элементах, если false, то только на тех элементах, которые были на странице при ее загрузке */
-        })
-        wow.init(); /* Инициализация плагина с установленными выше свойствами */
-    </script>
+    <script>new WOW().init();</script>
     <script src="lib/script.js"></script>
     <script src="https://unpkg.com/swiper@7/swiper-bundle.min.js"></script>
     <script src="lib/swiper.js"></script>
