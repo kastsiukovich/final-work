@@ -3291,6 +3291,10 @@ footer .footer-content-bottom .items .item-2{
     .about-product-1 .right .botton-add-img{
         flex-direction: column;
         row-gap: 25px;
+        // width: 100%;
+    }
+    .about-product-1 .right .botton-add, .about-product-1 .right .botton-img{
+        width: 100%;
     }
     .about-product-1 .right .botton-add a, .about-product-1 .right .botton-img{
         margin-right: 0;
