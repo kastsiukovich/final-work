@@ -188,9 +188,9 @@ header {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
-  -webkit-box-pack: startf;
-      -ms-flex-pack: startf;
-          justify-content: startf;
+  -webkit-box-pack: start;
+      -ms-flex-pack: start;
+          justify-content: start;
   /* padding-top: 10px; */
 }
 
@@ -1382,6 +1382,7 @@ header hr {
   height: 69px;
   font-size: 96px;
   line-height: 78px;
+  margin-right: 30px;
 }
 
 .nine-container .reviews .review-2 {
@@ -3270,14 +3271,14 @@ footer .footer-content-bottom .items .item-2 {
     padding-right: 5px;
   }
   footer .footer-content .footer-content-middle ul {
-    margin-right: 20px;
+    margin-right: 67px;
   }
   footer .footer-content .footer-content-middle {
     -ms-flex-wrap: wrap;
         flex-wrap: wrap;
-    -webkit-box-pack: space-evenly;
-        -ms-flex-pack: space-evenly;
-            justify-content: space-evenly;
+    -webkit-box-pack: start;
+        -ms-flex-pack: start;
+            justify-content: start;
   }
   footer .footer-content .footer-content-middle .title {
     margin-bottom: 15px;
@@ -3463,6 +3464,9 @@ footer .footer-content-bottom .items .item-2 {
   }
   .ten-container .block a {
     margin-bottom: 4px;
+  }
+  .nine-container .reviews .review-1 h4 {
+    margin-right: 0;
   }
   /*page-2*/
   .cotalog .content .information {
@@ -3838,9 +3842,9 @@ footer .footer-content-bottom .items .item-2 {
     margin-right: 0;
   }
   footer .footer-content .footer-content-middle {
-    -webkit-box-pack: center;
-        -ms-flex-pack: center;
-            justify-content: center;
+    -webkit-box-pack: start;
+        -ms-flex-pack: start;
+            justify-content: start;
   }
   .sorting .way {
     margin-bottom: 0;
