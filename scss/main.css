@@ -2702,7 +2702,7 @@ footer .footer-content-bottom .items .item-2 {
   transition: 0.5s;
 }
 
-.breadcrumb-item + .breadcrumb-item::before {
+.breadcrumb-item .breadcrumb-item::before {
   font-family: "Poppins";
   font-weight: 300;
   font-size: 12px;
@@ -3142,6 +3142,82 @@ footer .footer-content-bottom .items .item-2 {
 
 .bg-features .cards-features .card-features img {
   margin-bottom: 28px;
+}
+
+/* page register */
+/* page register */
+body .wrapper .register .way {
+  padding-top: 157px;
+}
+
+body .wrapper .register .way .items .item {
+  padding-left: 5px;
+  font-size: 12px;
+  line-height: 18px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  color: #a2a6b0;
+}
+
+body .wrapper .register .way .items .item a {
+  font-family: "Poppins";
+  font-size: 12px;
+  line-height: 18px;
+  color: #000000;
+  text-decoration: none;
+  -webkit-transition: 0.5s;
+  transition: 0.5s;
+  text-decoration: none;
+}
+
+body .wrapper .register .way .items .item a:hover {
+  color: #0156ff;
+}
+
+body .wrapper .main-register .customer {
+  margin-top: 19px;
+  height: 48px;
+  left: 261px;
+  top: 194px;
+  font-family: Poppins;
+  font-weight: 600;
+  font-size: 32px;
+  line-height: 48px;
+  color: #000000;
+  margin-bottom: 58px;
+}
+
+body .wrapper .main-register .main-form {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+}
+
+body .wrapper .main-register .main-form .register {
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  background-color: #f5f7ff;
+  width: 564px;
+}
+
+body .wrapper .main-register .main-form .create-account {
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  background-color: #f5f7ff;
+  width: 564px;
 }
 
 @media screen and (max-width: 1850px) {

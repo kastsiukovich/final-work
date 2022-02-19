@@ -1,0 +1,87 @@
+/* page register */
+$color_blue: #0156ff;
+
+body {
+   .wrapper {
+      .register {
+         .way {
+            padding-top: 157px;
+            .items {
+               // .acteive {
+               //    // padding-left: 5px;
+               //    // font-family: "Poppins";
+               //    // font-size: 12px;
+               //    // line-height: 18px;
+               //    // display: -webkit-box;
+               //    // display: -ms-flexbox;
+               //    // display: flex;
+               //    // align-items: center;
+               //    // color: #a2a6b0;
+               // }
+               .item {
+                  a {
+                     font-family: "Poppins";
+                     font-size: 12px;
+                     line-height: 18px;
+                     color: #000000;
+                     text-decoration: none;
+                     transition: 0.5s;
+                     text-decoration: none;
+                     &:hover {
+                        color: $color_blue;
+                     }
+                  }
+                  // a:hover {
+                  //    color: #0156ff;
+                  // }
+                  padding-left: 5px;
+                  font-size: 12px;
+                  line-height: 18px;
+                  display: flex;
+                  color: #a2a6b0;
+               }
+            }
+         }
+      }
+      .main-register {
+         .customer {
+            margin-top: 19px;
+            height: 48px;
+            left: 261px;
+            top: 194px;
+            font-family: Poppins;
+            font-weight: 600;
+            font-size: 32px;
+            line-height: 48px;
+            color: #000000;
+            margin-bottom: 58px;
+         }
+         // .register {
+         //    display: flex;
+         //    justify-content: space-around;
+         //    .reg-left {
+         //       // margin: 74px;
+         //    }
+         // }
+         .main-form {
+            display: flex;
+            justify-content: space-around;
+            .register {
+               flex-direction: column;
+               display: flex;
+               background-color: #f5f7ff;
+               width: 564px;
+               // .reg-left {
+               // }
+            }
+            // }
+            .create-account {
+               flex-direction: column;
+               display: flex;
+               background-color: #f5f7ff;
+               width: 564px;
+            }
+         }
+      }
+   }
+}
