@@ -1,5 +1,34 @@
 /* page register */
 $color_blue: #0156ff;
+$color_black: #000000;
+$color_red: #c94d3f;
+@mixin h3($ff, $fw, $fz, $lh, $c, $pb) {
+   font-family: $ff;
+   font-weight: $fw;
+   font-size: $fz;
+   line-height: $lh;
+   color: $c;
+   padding-bottom: $pb;
+}
+
+@mixin em-pas($ff, $fw, $fs, $lh, $c, $pb) {
+   font-family: $ff;
+   font-weight: $fw;
+   font-size: $fs;
+   line-height: $lh;
+   color: $c;
+   padding-bottom: $pb;
+}
+@mixin btn($ff, $fw, $fs, $lh, $c, $pad, $bc, $br) {
+   font-family: $ff;
+   font-weight: $fw;
+   font-size: $fs;
+   line-height: $lh;
+   color: $c;
+   padding: $pad;
+   background-color: $bc;
+   border-radius: $br;
+}
 
 body {
    .wrapper {
@@ -7,23 +36,12 @@ body {
          .way {
             padding-top: 157px;
             .items {
-               // .acteive {
-               //    // padding-left: 5px;
-               //    // font-family: "Poppins";
-               //    // font-size: 12px;
-               //    // line-height: 18px;
-               //    // display: -webkit-box;
-               //    // display: -ms-flexbox;
-               //    // display: flex;
-               //    // align-items: center;
-               //    // color: #a2a6b0;
-               // }
                .item {
                   a {
                      font-family: "Poppins";
                      font-size: 12px;
                      line-height: 18px;
-                     color: #000000;
+                     color: $color_black;
                      text-decoration: none;
                      transition: 0.5s;
                      text-decoration: none;
@@ -31,9 +49,6 @@ body {
                         color: $color_blue;
                      }
                   }
-                  // a:hover {
-                  //    color: #0156ff;
-                  // }
                   padding-left: 5px;
                   font-size: 12px;
                   line-height: 18px;
@@ -53,16 +68,9 @@ body {
             font-weight: 600;
             font-size: 32px;
             line-height: 48px;
-            color: #000000;
+            color: $color_black;
             margin-bottom: 58px;
          }
-         // .register {
-         //    display: flex;
-         //    justify-content: space-around;
-         //    .reg-left {
-         //       // margin: 74px;
-         //    }
-         // }
          .main-form {
             display: flex;
             justify-content: space-around;
@@ -71,15 +79,180 @@ body {
                display: flex;
                background-color: #f5f7ff;
                width: 564px;
-               // .reg-left {
-               // }
+               padding: 38px 57px;
+               h3 {
+                  @include h3(Poppins, 600, 18px, 27px, $color_black, 18px);
+               }
+               .have-ac {
+                  // height: 67px;
+                  font-family: Poppins;
+                  font-weight: 300;
+                  font-size: 14px;
+                  line-height: 30px;
+                  color: $color_black;
+                  padding-bottom: 14px;
+               }
+               .label-left {
+                  @include em-pas(Poppins, 600, 13px, 210%, $color_black, 9px);
+                  span {
+                     color: $color_red;
+                     padding-left: 5px;
+                  }
+               }
+               .input-left {
+                  @include em-pas(Poppins, 300, 14px, 20px, #a2a6b0, 14px);
+                  padding-top: 14px;
+                  padding-left: 15px;
+                  margin-bottom: 12px;
+               }
+               .btn-left {
+                  .sign-in-btn {
+                     @include btn(Poppins, 600, 14px, 21px, #ffffff, 14px, #0156ff, 50px);
+                     width: 151px;
+                     padding-left: 38px;
+                     padding-right: 38px;
+                     margin-top: 28px;
+                     margin-right: 23px;
+                     border: 1px solid $color_blue;
+                     transition: 0.5s ease-in-out;
+                     &:hover {
+                        background-color: white;
+                        color: $color_blue;
+                     }
+                  }
+                  > a {
+                     font-family: Poppins;
+                     font-size: 14px;
+                     line-height: 20px;
+                     color: $color_blue;
+                     text-decoration: none;
+                     transition: 0.5s ease-in-out;
+                     &:hover {
+                        text-decoration: underline;
+                     }
+                  }
+               }
             }
-            // }
             .create-account {
                flex-direction: column;
                display: flex;
                background-color: #f5f7ff;
                width: 564px;
+               padding: 38px 57px;
+               h3 {
+                  @include h3(Poppins, 600, 18px, 27px, $color_black, 18px);
+               }
+               .have-ac {
+                  font-family: Poppins;
+                  font-weight: 300;
+                  font-size: 14px;
+                  line-height: 30px;
+                  color: $color_black;
+                  padding-bottom: 31px;
+                  list-style-type: disc;
+                  #first-li {
+                     margin-top: 21px;
+                  }
+
+                  > li {
+                     margin-left: 19px;
+                     line-height: 20px;
+                  }
+               }
+               .btn-reg-right {
+                  @include btn(Poppins, 600, 14px, 21px, #ffffff, 14px, #0156ff, 50px);
+                  padding-left: 38px;
+                  padding-right: 38px;
+                  margin-top: 28px;
+                  margin-right: 23px;
+                  border: 1px solid $color_blue;
+                  width: 214px;
+                  transition: 0.5s ease-in-out;
+                  &:hover {
+                     background-color: white;
+                     color: $color_blue;
+                  }
+               }
+            }
+         }
+      }
+   }
+}
+@media screen and (max-width: 1025px) {
+   body {
+      .main-register {
+         .main-form {
+            .register {
+               .btn-left {
+                  display: flex;
+                  flex-direction: column;
+                  > a {
+                     padding-top: 15px;
+                  }
+               }
+            }
+         }
+      }
+   }
+}
+@media screen and (max-width: 800px) {
+   body {
+      .wrapper {
+         .main-register {
+            .customer {
+               text-align: center;
+               margin-bottom: 19px;
+            }
+            .main-form {
+               flex-direction: column;
+               align-items: center;
+               .register {
+                  width: 100%;
+                  padding: 18px 37px;
+
+                  .btn-left {
+                     align-items: center;
+                     .sign-in-btn {
+                        margin-right: 0px;
+                     }
+                  }
+               }
+               .create-account {
+                  width: 100%;
+                  padding: 18px 37px;
+                  .btn-reg-right {
+                     align-items: center;
+                     margin: 0 auto;
+                  }
+               }
+            }
+         }
+      }
+   }
+}
+@media screen and (max-width: 425px) {
+   body {
+      .wrapper {
+         .main-register {
+            .main-form {
+               .customer {
+                  font-size: 30px;
+               }
+               .register {
+                  padding: 18px 10px;
+                  .btn-left {
+                     .sign-in-btn {
+                        width: 100%;
+                     }
+                  }
+               }
+               .create-account {
+                  padding: 18px 10px;
+                  .btn-reg-right {
+                     width: 100%;
+                     margin: 0 auto;
+                  }
+               }
             }
          }
       }

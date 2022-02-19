@@ -3206,6 +3206,89 @@ body .wrapper .main-register .main-form .register {
   display: flex;
   background-color: #f5f7ff;
   width: 564px;
+  padding: 38px 57px;
+}
+
+body .wrapper .main-register .main-form .register h3 {
+  font-family: Poppins;
+  font-weight: 600;
+  font-size: 18px;
+  line-height: 27px;
+  color: #000000;
+  padding-bottom: 18px;
+}
+
+body .wrapper .main-register .main-form .register .have-ac {
+  font-family: Poppins;
+  font-weight: 300;
+  font-size: 14px;
+  line-height: 30px;
+  color: #000000;
+  padding-bottom: 14px;
+}
+
+body .wrapper .main-register .main-form .register .label-left {
+  font-family: Poppins;
+  font-weight: 600;
+  font-size: 13px;
+  line-height: 210%;
+  color: #000000;
+  padding-bottom: 9px;
+}
+
+body .wrapper .main-register .main-form .register .label-left span {
+  color: #c94d3f;
+  padding-left: 5px;
+}
+
+body .wrapper .main-register .main-form .register .input-left {
+  font-family: Poppins;
+  font-weight: 300;
+  font-size: 14px;
+  line-height: 20px;
+  color: #a2a6b0;
+  padding-bottom: 14px;
+  padding-top: 14px;
+  padding-left: 15px;
+  margin-bottom: 12px;
+}
+
+body .wrapper .main-register .main-form .register .btn-left .sign-in-btn {
+  font-family: Poppins;
+  font-weight: 600;
+  font-size: 14px;
+  line-height: 21px;
+  color: #ffffff;
+  padding: 14px;
+  background-color: #0156ff;
+  border-radius: 50px;
+  width: 151px;
+  padding-left: 38px;
+  padding-right: 38px;
+  margin-top: 28px;
+  margin-right: 23px;
+  border: 1px solid #0156ff;
+  -webkit-transition: 0.5s ease-in-out;
+  transition: 0.5s ease-in-out;
+}
+
+body .wrapper .main-register .main-form .register .btn-left .sign-in-btn:hover {
+  background-color: white;
+  color: #0156ff;
+}
+
+body .wrapper .main-register .main-form .register .btn-left > a {
+  font-family: Poppins;
+  font-size: 14px;
+  line-height: 20px;
+  color: #0156ff;
+  text-decoration: none;
+  -webkit-transition: 0.5s ease-in-out;
+  transition: 0.5s ease-in-out;
+}
+
+body .wrapper .main-register .main-form .register .btn-left > a:hover {
+  text-decoration: underline;
 }
 
 body .wrapper .main-register .main-form .create-account {
@@ -3218,6 +3301,131 @@ body .wrapper .main-register .main-form .create-account {
   display: flex;
   background-color: #f5f7ff;
   width: 564px;
+  padding: 38px 57px;
+}
+
+body .wrapper .main-register .main-form .create-account h3 {
+  font-family: Poppins;
+  font-weight: 600;
+  font-size: 18px;
+  line-height: 27px;
+  color: #000000;
+  padding-bottom: 18px;
+}
+
+body .wrapper .main-register .main-form .create-account .have-ac {
+  font-family: Poppins;
+  font-weight: 300;
+  font-size: 14px;
+  line-height: 30px;
+  color: #000000;
+  padding-bottom: 31px;
+  list-style-type: disc;
+}
+
+body .wrapper .main-register .main-form .create-account .have-ac #first-li {
+  margin-top: 21px;
+}
+
+body .wrapper .main-register .main-form .create-account .have-ac > li {
+  margin-left: 19px;
+  line-height: 20px;
+}
+
+body .wrapper .main-register .main-form .create-account .btn-reg-right {
+  font-family: Poppins;
+  font-weight: 600;
+  font-size: 14px;
+  line-height: 21px;
+  color: #ffffff;
+  padding: 14px;
+  background-color: #0156ff;
+  border-radius: 50px;
+  padding-left: 38px;
+  padding-right: 38px;
+  margin-top: 28px;
+  margin-right: 23px;
+  border: 1px solid #0156ff;
+  width: 214px;
+  -webkit-transition: 0.5s ease-in-out;
+  transition: 0.5s ease-in-out;
+}
+
+body .wrapper .main-register .main-form .create-account .btn-reg-right:hover {
+  background-color: white;
+  color: #0156ff;
+}
+
+@media screen and (max-width: 1025px) {
+  body .main-register .main-form .register .btn-left {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+  }
+  body .main-register .main-form .register .btn-left > a {
+    padding-top: 15px;
+  }
+}
+
+@media screen and (max-width: 800px) {
+  body .wrapper .main-register .customer {
+    text-align: center;
+    margin-bottom: 19px;
+  }
+  body .wrapper .main-register .main-form {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+  }
+  body .wrapper .main-register .main-form .register {
+    width: 100%;
+    padding: 18px 37px;
+  }
+  body .wrapper .main-register .main-form .register .btn-left {
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+  }
+  body .wrapper .main-register .main-form .register .btn-left .sign-in-btn {
+    margin-right: 0px;
+  }
+  body .wrapper .main-register .main-form .create-account {
+    width: 100%;
+    padding: 18px 37px;
+  }
+  body .wrapper .main-register .main-form .create-account .btn-reg-right {
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    margin: 0 auto;
+  }
+}
+
+@media screen and (max-width: 425px) {
+  body .wrapper .main-register .main-form .customer {
+    font-size: 30px;
+  }
+  body .wrapper .main-register .main-form .register {
+    padding: 18px 10px;
+  }
+  body .wrapper .main-register .main-form .register .btn-left .sign-in-btn {
+    width: 100%;
+  }
+  body .wrapper .main-register .main-form .create-account {
+    padding: 18px 10px;
+  }
+  body .wrapper .main-register .main-form .create-account .btn-reg-right {
+    width: 100%;
+    margin: 0 auto;
+  }
 }
 
 @media screen and (max-width: 1850px) {
