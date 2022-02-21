@@ -3146,6 +3146,10 @@ footer .footer-content-bottom .items .item-2 {
 
 /* page register */
 /* page register */
+.invalid {
+  border: 1px solid red;
+}
+
 body .wrapper .register .way {
   padding-top: 157px;
 }
@@ -3254,6 +3258,12 @@ body .wrapper .main-register .main-form .register .input-left {
 }
 
 body .wrapper .main-register .main-form .register .btn-left .sign-in-btn {
+  margin-top: 28px;
+  margin-bottom: 14px;
+  margin-right: 23px;
+}
+
+body .wrapper .main-register .main-form .register .btn-left .sign-in-btn .btn-left-a {
   font-family: Poppins;
   font-weight: 600;
   font-size: 14px;
@@ -3265,14 +3275,15 @@ body .wrapper .main-register .main-form .register .btn-left .sign-in-btn {
   width: 151px;
   padding-left: 38px;
   padding-right: 38px;
-  margin-top: 28px;
-  margin-right: 23px;
+  display: block;
   border: 1px solid #0156ff;
   -webkit-transition: 0.5s ease-in-out;
   transition: 0.5s ease-in-out;
+  text-decoration: none;
+  color: #ffffff;
 }
 
-body .wrapper .main-register .main-form .register .btn-left .sign-in-btn:hover {
+body .wrapper .main-register .main-form .register .btn-left .sign-in-btn .btn-left-a:hover {
   background-color: white;
   color: #0156ff;
 }
@@ -3365,9 +3376,16 @@ body .wrapper .main-register .main-form .create-account .btn-reg-right:hover {
     -webkit-box-direction: normal;
         -ms-flex-direction: column;
             flex-direction: column;
+    -webkit-box-align: start;
+        -ms-flex-align: start;
+            align-items: flex-start;
+  }
+  body .main-register .main-form .register .btn-left .sign-in-btn {
+    margin-right: 0px;
   }
   body .main-register .main-form .register .btn-left > a {
     padding-top: 15px;
+    text-align: center;
   }
 }
 
@@ -3417,6 +3435,15 @@ body .wrapper .main-register .main-form .create-account .btn-reg-right:hover {
     padding: 18px 10px;
   }
   body .wrapper .main-register .main-form .register .btn-left .sign-in-btn {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    width: 100%;
+  }
+  body .wrapper .main-register .main-form .register .btn-left .sign-in-btn .btn-left-a {
     width: 100%;
   }
   body .wrapper .main-register .main-form .create-account {
