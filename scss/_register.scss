@@ -1,8 +1,5 @@
 /* page register */
 
-.invalid {
-   border: 1px solid red;
-}
 $color_blue: #0156ff;
 $color_black: #000000;
 $color_red: #c94d3f;
@@ -112,41 +109,37 @@ body {
                }
                .btn-left {
                   .sign-in-btn {
+                     @include btn(Poppins, 600, 14px, 21px, #ffffff, 14px, #0156ff, 50px);
+                     width: 151px;
+                     padding-left: 38px;
+                     padding-right: 38px;
+                     margin-top: 28px;
+                     margin-right: 23px;
+                     border: 1px solid $color_blue;
+                     transition: 0.5s ease-in-out;
                      margin-top: 28px;
                      margin-bottom: 14px;
                      margin-right: 23px;
-                     
-                     .btn-left-a {
-                        @include btn(Poppins, 600, 14px, 21px, #ffffff, 14px, #0156ff, 50px);
-                        width: 151px;
-                        padding-left: 38px;
-                        padding-right: 38px;
-                        display: block;
-                        // background-color: $color_blue;
-
-                        border: 1px solid $color_blue;
-                        transition: 0.5s ease-in-out;
-                        text-decoration: none;
-                        color: #ffffff;
-                        &:hover {
-                           background-color: white;
-                           color: $color_blue;
-                           
-                        }
+                     &:hover {
+                        background-color: white;
+                        color: $color_blue;
                      }
+                     // .btn-left-a {
+                     //    @include btn(Poppins, 600, 14px, 21px, #ffffff, 14px, #0156ff, 50px);
+                     //    width: 151px;
+                     //    padding-left: 38px;
+                     //    padding-right: 38px;
+                     //    display: block;
+                     //    // background-color: $color_blue;
 
-                     // @include btn(Poppins, 600, 14px, 21px, #ffffff, 14px, #0156ff, 50px);
-                     // width: 151px;
-                     // padding-left: 38px;
-                     // padding-right: 38px;
-                     // margin-top: 28px;
-                     // margin-right: 23px;
-                     // border: 1px solid $color_blue;
-                     // transition: 0.5s ease-in-out;
-
-                     // &:hover {
-                     //    background-color: white;
-                     //    color: $color_blue;
+                     //    border: 1px solid $color_blue;
+                     //    transition: 0.5s ease-in-out;
+                     //    text-decoration: none;
+                     //    color: #ffffff;
+                     //    &:hover {
+                     //       background-color: white;
+                     //       color: $color_blue;
+                     //    }
                      // }
                   }
                   > a {
@@ -207,6 +200,7 @@ body {
       }
    }
 }
+
 @media screen and (max-width: 1025px) {
    body {
       .main-register {
@@ -279,7 +273,7 @@ body {
                         display: flex;
                         justify-content: center;
                         width: 100%;
-                        .btn-left-a{
+                        .btn-left-a {
                            width: 100%;
                         }
                      }
@@ -296,4 +290,14 @@ body {
          }
       }
    }
+}
+
+.none {
+   display: none;
+}
+.block {
+   display: block;
+}
+.invalid {
+   border: 1px solid red;
 }

@@ -3146,10 +3146,6 @@ footer .footer-content-bottom .items .item-2 {
 
 /* page register */
 /* page register */
-.invalid {
-  border: 1px solid red;
-}
-
 body .wrapper .register .way {
   padding-top: 157px;
 }
@@ -3258,12 +3254,6 @@ body .wrapper .main-register .main-form .register .input-left {
 }
 
 body .wrapper .main-register .main-form .register .btn-left .sign-in-btn {
-  margin-top: 28px;
-  margin-bottom: 14px;
-  margin-right: 23px;
-}
-
-body .wrapper .main-register .main-form .register .btn-left .sign-in-btn .btn-left-a {
   font-family: Poppins;
   font-weight: 600;
   font-size: 14px;
@@ -3275,15 +3265,17 @@ body .wrapper .main-register .main-form .register .btn-left .sign-in-btn .btn-le
   width: 151px;
   padding-left: 38px;
   padding-right: 38px;
-  display: block;
+  margin-top: 28px;
+  margin-right: 23px;
   border: 1px solid #0156ff;
   -webkit-transition: 0.5s ease-in-out;
   transition: 0.5s ease-in-out;
-  text-decoration: none;
-  color: #ffffff;
+  margin-top: 28px;
+  margin-bottom: 14px;
+  margin-right: 23px;
 }
 
-body .wrapper .main-register .main-form .register .btn-left .sign-in-btn .btn-left-a:hover {
+body .wrapper .main-register .main-form .register .btn-left .sign-in-btn:hover {
   background-color: white;
   color: #0156ff;
 }
@@ -3453,6 +3445,18 @@ body .wrapper .main-register .main-form .create-account .btn-reg-right:hover {
     width: 100%;
     margin: 0 auto;
   }
+}
+
+.none {
+  display: none;
+}
+
+.block {
+  display: block;
+}
+
+.invalid {
+  border: 1px solid red;
 }
 
 @media screen and (max-width: 1850px) {

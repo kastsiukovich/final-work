@@ -158,7 +158,8 @@
         <main class="main-register center">
             <h1 class="customer">Customer Login</h1>
             <div class="main-form">
-                <form action="#" method="get" name="form-page-reg-1" class="register">
+                <!-- action="#" method="get" -->
+                <form name="form-page-reg-1" class="register">
                     <!-- <div class="reg-left"> -->
                     <h3>Registered Customers</h3>
                     <p class="have-ac">If you have an account, sign in with your email address.</p>
@@ -170,9 +171,26 @@
                     <input class="input-left" type="password" placeholder="Your Name" id="psw" name="psw" required>
                     <span class="span-password"></span>
                     <div class="btn-left">
-                        <button type="button" class="sign-in-btn"><a class="btn-left-a" href="./index.html">Sign in</a></button>
-                        <!-- <button type="button" class="sign-in-btn">Sign in</button> -->
-                        <a href="#">Forgot Your Password?</a>
+                        <!-- <button type="button" class="sign-in-btn"><a class="btn-left-a" href="./index.html">Sign
+                                in</a></button> -->
+                        <button type="button" class="sign-in-btn">Sign in</button>
+                        <a class="forgot-passw" href="#">Forgot Your Password?</a>
+                    </div>
+                    <!-- </div> -->
+                </form>
+                <!-- action="#" method="get" -->
+                <form class="none " name="form-page-reg-pass-recovery">
+                    <!-- <div class="reg-left"> -->
+                    <h3>Password Recovery</h3>
+                    <!-- <p class="have-ac">If you have an account, sign in with your email address.</p> -->
+
+                    <label class="label-left" for="email">Enter your email<span></span></label>
+                    <input class="input-left" type="text" placeholder="Email" id="text" name="email" required>
+                    <span class="span-recovery"></span>
+                    <div class="btn-left">
+                        <!-- <button type="button" class="sign-in-btn"><a class="btn-left-a" href="#">Resume</a></button> -->
+                        <button type="button" class="sign-in-btn">Resume</button>
+                        <!-- <a href="#">Forgot Your Password?</a> -->
                     </div>
                     <!-- </div> -->
                 </form>
