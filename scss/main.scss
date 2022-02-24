@@ -799,11 +799,40 @@ header hr {
 .five-container .cards .card .price,
 .six-container .cards .card .price,
 .cotalog .content .card .price {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
     font-family: "Poppins";
     font-weight: 600;
     font-size: 18px;
     line-height: 140%;
     color: #000000;
+}
+.products-container .cards .card .price .add-to-card,
+.three-container .cards .card .price .add-to-card,
+.four-container .cards .card .price .add-to-card,
+.five-container .cards .card .price .add-to-card,
+.six-container .cards .card .price .add-to-card,
+.cotalog .content .card .price .add-to-card {
+    font-family: "Poppins";
+    font-weight: 600;
+    font-size: 12px;
+    color: #ffffff;
+    background-color: #0156ff;
+    padding-left: 10px;
+    padding-right: 10px;
+    border: 1px solid #0156ff;
+    transition: 0.5s ease-in-out;
+    border-radius: 50px;
+}
+.products-container .cards .card .price .add-to-card:hover, 
+.three-container .cards .card .price .add-to-card:hover,
+.four-container .cards .card .price .add-to-card:hover,
+.five-container .cards .card .price .add-to-card:hover,
+.six-container .cards .card .price .add-to-card:hover,
+.cotalog .content .card .price .add-to-card:hover{
+    background-color: white;
+    color:#0156ff;
 }
 
 .products-container .cards .card .two p,

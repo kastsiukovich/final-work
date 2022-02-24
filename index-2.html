@@ -93,13 +93,15 @@
 
                     <ul class="search">
                         <li class="gg-search"><a href="#"><img src="./images/gg-search.svg" alt="gg-search"></a></li>
-                        <li class="group"><a href="#"><img src="./images/group-54.svg" alt="group-54"></a></li>
-                        <li><a href="register.html"><img src="./images/ellipse-8.jpg" alt="ellipse-8"></a></li>
+                        <li class="group"><a class="counter-basket" href="#"><img src="./images/group-54.svg" alt="group-54"></a></li>
+                        <span id="counter-basket-result"></span>
+                        <li><a target="_blank" href="register.html"><img src="./images/ellipse-8.jpg"
+                                    alt="ellipse-8"></a></li>
                     </ul>
                     <div class="my-cart">
                         <div class="cart-top">
                             <h5>My Cart</h5>
-                            <p>2 item in cart</p>
+                            <p><span class="quantity">2</span> item in cart</p>
                             <a href="#">View or Edit Your Cart</a>
                         </div>
                         <hr>
@@ -384,6 +386,7 @@
                         </p>
                         <p class="price">
                             $499.00
+                            <button type="button" class="add-to-card">Add to cart</button>
                         </p>
                     </div>
 
@@ -422,6 +425,7 @@
                         </p>
                         <p class="price">
                             $499.00
+                            <button type="button" class="add-to-card">Add to cart</button>
                         </p>
                     </div>
 
@@ -460,6 +464,7 @@
                         </p>
                         <p class="price">
                             $499.00
+                            <button type="button" class="add-to-card">Add to cart</button>
                         </p>
                     </div>
 
@@ -498,6 +503,7 @@
                         </p>
                         <p class="price">
                             $499.00
+                            <button type="button" class="add-to-card">Add to cart</button>
                         </p>
                     </div>
 
@@ -536,6 +542,7 @@
                         </p>
                         <p class="price">
                             $499.00
+                            <button type="button" class="add-to-card">Add to cart</button>
                         </p>
                     </div>
 
@@ -574,6 +581,7 @@
                         </p>
                         <p class="price">
                             $499.00
+                            <button type="button" class="add-to-card">Add to cart</button>
                         </p>
                     </div>
 
@@ -612,6 +620,7 @@
                         </p>
                         <p class="price">
                             $499.00
+                            <button type="button" class="add-to-card">Add to cart</button>
                         </p>
                     </div>
 
@@ -650,6 +659,7 @@
                         </p>
                         <p class="price">
                             $499.00
+                            <button type="button" class="add-to-card">Add to cart</button>
                         </p>
                     </div>
 
@@ -688,6 +698,7 @@
                         </p>
                         <p class="price">
                             $499.00
+                            <button type="button" class="add-to-card">Add to cart</button>
                         </p>
                     </div>
 
@@ -726,6 +737,7 @@
                         </p>
                         <p class="price">
                             $499.00
+                            <button type="button" class="add-to-card">Add to cart</button>
                         </p>
                     </div>
 
@@ -764,6 +776,7 @@
                         </p>
                         <p class="price">
                             $499.00
+                            <button type="button" class="add-to-card">Add to cart</button>
                         </p>
                     </div>
 
@@ -802,6 +815,7 @@
                         </p>
                         <p class="price">
                             $499.00
+                            <button type="button" class="add-to-card">Add to cart</button>
                         </p>
                     </div>
 
@@ -840,6 +854,7 @@
                         </p>
                         <p class="price">
                             $499.00
+                            <button type="button" class="add-to-card">Add to cart</button>
                         </p>
                     </div>
 
@@ -878,6 +893,7 @@
                         </p>
                         <p class="price">
                             $499.00
+                            <button type="button" class="add-to-card">Add to cart</button>
                         </p>
                     </div>
 
@@ -916,6 +932,7 @@
                         </p>
                         <p class="price">
                             $499.00
+                            <button type="button" class="add-to-card">Add to cart</button>
                         </p>
                     </div>
 
@@ -954,6 +971,7 @@
                         </p>
                         <p class="price">
                             $499.00
+                            <button type="button" class="add-to-card">Add to cart</button>
                         </p>
                     </div>
 
@@ -992,6 +1010,7 @@
                         </p>
                         <p class="price">
                             $499.00
+                            <button type="button" class="add-to-card">Add to cart</button>
                         </p>
                     </div>
 
@@ -1030,6 +1049,7 @@
                         </p>
                         <p class="price">
                             $499.00
+                            <button type="button" class="add-to-card">Add to cart</button>
                         </p>
                     </div>
 
@@ -1068,6 +1088,7 @@
                         </p>
                         <p class="price">
                             $499.00
+                            <button type="button" class="add-to-card">Add to cart</button>
                         </p>
                     </div>
 
@@ -1106,6 +1127,7 @@
                         </p>
                         <p class="price">
                             $499.00
+                            <button type="button" class="add-to-card">Add to cart</button>
                         </p>
                     </div>
 
@@ -1299,8 +1321,10 @@
 
     <script src="lib/wow.min.js"></script>
     <script>new WOW().init();</script>
-    <script src="lib/script.js"></script>
+
     <script src="https://unpkg.com/swiper@7/swiper-bundle.min.js"></script>
+    <script src="lib/register.js"></script>
+    <script src="lib/basket.js"></script>
 </body>
 
 </html>

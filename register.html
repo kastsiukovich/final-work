@@ -93,13 +93,13 @@
 
                     <ul class="search">
                         <li class="gg-search"><a href="#"><img src="./images/gg-search.svg" alt="gg-search"></a></li>
-                        <li class="group"><a href="#"><img src="./images/group-54.svg" alt="group-54"></a></li>
-                        <li><a href="index-3.html"><img src="./images/ellipse-8.jpg" alt="ellipse-8"></a></li>
+                        <li class="group"><a class="counter-basket" href="#"><img src="./images/group-54.svg" alt="group-54"></a></li>
+                        <li><a href="#"><img src="./images/ellipse-8.jpg" alt="ellipse-8"></a></li>
                     </ul>
                     <div class="my-cart">
                         <div class="cart-top">
                             <h5>My Cart</h5>
-                            <p>2 item in cart</p>
+                            <p><span class="quantity">2</span> item in cart</p>
                             <a href="#">View or Edit Your Cart</a>
                         </div>
                         <hr>
@@ -182,7 +182,10 @@
                 <form class="none " name="form-page-reg-pass-recovery">
                     <!-- <div class="reg-left"> -->
                     <h3>Password Recovery</h3>
-                    <!-- <p class="have-ac">If you have an account, sign in with your email address.</p> -->
+                    <!-- <p id="instructions" class="none">Instructions on password recovery were sent to<br> the specified
+                        e-mail.<br>
+                        You will receive an email shortly.</p> -->
+
 
                     <label class="label-left" for="email">Enter your email<span></span></label>
                     <input class="input-left" type="text" placeholder="Email" id="text" name="email" required>
@@ -194,6 +197,9 @@
                     </div>
                     <!-- </div> -->
                 </form>
+                <p id="instructions" class="none">Instructions on password recovery were sent to<br> the specified
+                    e-mail.<br>
+                    You will receive an email shortly.</p>
                 <form action="#" method="get" name="form-page-reg-2" class="create-account">
                     <!-- <div class="reg-right"> -->
                     <h3>New Customer?</h3>
@@ -352,8 +358,10 @@
 
     <script src="lib/wow.min.js"></script>
     <script>new WOW().init();</script>
-    <script src="lib/script.js"></script>
+
     <script src="https://unpkg.com/swiper@7/swiper-bundle.min.js"></script>
+    <script src="lib/register.js"></script>
+    <script src="lib/basket.js"></script>
 </body>
 
 </html>
