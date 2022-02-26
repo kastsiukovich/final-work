@@ -93,7 +93,8 @@
 
                     <ul class="search">
                         <li class="gg-search"><a href="#"><img src="./images/gg-search.svg" alt="gg-search"></a></li>
-                        <li class="group"><a class="counter-basket" href="#"><img src="./images/group-54.svg" alt="group-54"></a></li>
+                        <li class="group"><a class="counter-basket" href="#"><img src="./images/group-54.svg"
+                                    alt="group-54"></a></li>
                         <span id="counter-basket-result"></span>
                         <li><a target="_blank" href="register.html"><img src="./images/ellipse-8.jpg"
                                     alt="ellipse-8"></a></li>
@@ -381,9 +382,15 @@
                         EX DISPLAY : MSI Pro 16 Flex-036AU 15.6 MULTITOUCH All-In-On...
                     </h4>
                     <div class="price-p">
-                        <p class="price-crossed-out">
-                            $499.00
-                        </p>
+                        <div class="price-p-btn">
+                            <p class="price-crossed-out">
+                                $499.00 </p>
+                            <ul>
+                                <li class="price-min price-cont">-</li>
+                                <li class="price-result price-cont">0</li>
+                                <li class="price-max price-cont">+</li>
+                            </ul>
+                        </div>
                         <p class="price">
                             $499.00
                             <button type="button" class="add-to-card">Add to cart</button>
@@ -426,6 +433,7 @@
                         <p class="price">
                             $499.00
                             <button type="button" class="add-to-card">Add to cart</button>
+                            <button name="in-the-cart" type="button" class="none">In the cart</button>
                         </p>
                     </div>
 
@@ -1324,7 +1332,7 @@
 
     <script src="https://unpkg.com/swiper@7/swiper-bundle.min.js"></script>
     <script src="lib/register.js"></script>
-    <script src="lib/basket.js"></script>
+    <script src="lib/add_in_basket.js"></script>
 </body>
 
 </html>

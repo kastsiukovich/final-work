@@ -781,6 +781,45 @@ header hr {
     height: 68px;
     margin: 0 24px;
 }
+body {
+    .wrapper {
+        .cotalog {
+            .content {
+                .card {
+                    .price-p {
+                        .price-p-btn {
+                            display: flex;
+                            justify-content: space-between;
+                            margin-bottom: 5px;
+                            ul {
+                                display: flex;
+                                justify-content: space-between;
+                                border: 1px solid #0156ff;
+                                margin-right: 15px;
+                                .price-min {
+                                    padding: 0px 5px;
+                                }
+                                .price-result {
+                                    border-left: 1px solid #0156ff;
+                                    border-right: 1px solid #0156ff;
+                                    padding: 0px 5px;
+                                }
+                                .price-max {
+                                    padding: 0px 5px;
+                                }
+                                .price-cont {
+                                    background-color: #0156ff;
+                                }
+                            }
+                        }
+                    }
+                }
+            }
+        }
+    }
+}
+
+// price-p-btn
 .products-container .cards .card .price-crossed-out,
 .three-container .cards .card .price-crossed-out,
 .four-container .cards .card .price-crossed-out,
@@ -825,14 +864,45 @@ header hr {
     transition: 0.5s ease-in-out;
     border-radius: 50px;
 }
-.products-container .cards .card .price .add-to-card:hover, 
+.products-container .cards .card .price .add-to-card:hover,
 .three-container .cards .card .price .add-to-card:hover,
 .four-container .cards .card .price .add-to-card:hover,
 .five-container .cards .card .price .add-to-card:hover,
 .six-container .cards .card .price .add-to-card:hover,
-.cotalog .content .card .price .add-to-card:hover{
+.cotalog .content .card .price .add-to-card:hover {
     background-color: white;
-    color:#0156ff;
+    color: #0156ff;
+}
+
+// price in the cart
+body {
+    .wrapper {
+        .cotalog {
+            .content {
+                .card {
+                    .price-p {
+                        .in-the-cart {
+                            font-family: "Poppins";
+                            font-weight: 600;
+                            font-size: 12px;
+                            color: #0156ff;
+                            background-color: #fff;
+                            padding-left: 10px;
+                            padding-right: 10px;
+                            border: 1px solid #0156ff;
+                            transition: 0.5s ease-in-out;
+                            border-radius: 50px;
+                            &:hover {
+                                border-color: red;
+                                color: red;
+                                text-decoration: underline;
+                            }
+                        }
+                    }
+                }
+            }
+        }
+    }
 }
 
 .products-container .cards .card .two p,
@@ -2307,8 +2377,32 @@ footer .footer-content-bottom .items .item-2 {
 .bg-features .cards-features .card-features img {
     margin-bottom: 28px;
 }
+
 /* page register */
 @import "./register";
+// bascket
+body {
+    .wrapper {
+        .first-container {
+            header {
+                .top-2 {
+                    .search {
+                        #counter-basket-result {
+                            background-color: #0156ff;
+                            padding: 5px 7px;
+                            border-radius: 15px;
+                            color: white;
+                            font-size: 10px;
+                            position: absolute;
+                            top: 25px;
+                            right: 62px;
+                        }
+                    }
+                }
+            }
+        }
+    }
+}
 
 @media screen and (max-width: 1850px) {
     .wraper-bg-images {
@@ -2452,9 +2546,6 @@ footer .footer-content-bottom .items .item-2 {
     .eight-container .box-news {
         justify-content: space-evenly;
     }
-    /* .center{
-        max-width: 95%;
-    } */
     .center {
         max-width: 90%;
     }
@@ -2470,9 +2561,6 @@ footer .footer-content-bottom .items .item-2 {
 }
 
 @media screen and (max-width: 1300px) {
-    // .time-open{
-    //     left: 18%;
-    // }
     .top-2 .menu {
         min-height: 100vh;
         background: rgba(0, 0, 0, 0.9);
@@ -2949,6 +3037,22 @@ footer .footer-content-bottom .items .item-2 {
     .wraper-bg-images {
         background-position-y: 373px;
         height: 94vh;
+    }
+    // bascket
+    body {
+        .wrapper {
+            .first-container {
+                header {
+                    .top-2 {
+                        .search {
+                            #counter-basket-result {
+                                top: 14px;
+                            }
+                        }
+                    }
+                }
+            }
+        }
     }
 }
 @media screen and (max-width: 650px) {
@@ -3468,5 +3572,22 @@ footer .footer-content-bottom .items .item-2 {
     }
     footer .footer-content .footer-content-middle {
         justify-content: start;
+    }
+    // bascket
+    body {
+        .wrapper {
+            .first-container {
+                header {
+                    .top-2 {
+                        .search {
+                            #counter-basket-result {
+                                top: 14px;
+                                right: 55px;
+                            }
+                        }
+                    }
+                }
+            }
+        }
     }
 }

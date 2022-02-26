@@ -1125,6 +1125,45 @@ header hr {
   margin: 0 24px;
 }
 
+body .wrapper .cotalog .content .card .price-p .price-p-btn {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  margin-bottom: 5px;
+}
+
+body .wrapper .cotalog .content .card .price-p .price-p-btn ul {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  border: 1px solid #0156ff;
+  margin-right: 15px;
+}
+
+body .wrapper .cotalog .content .card .price-p .price-p-btn ul .price-min {
+  padding: 0px 5px;
+}
+
+body .wrapper .cotalog .content .card .price-p .price-p-btn ul .price-result {
+  border-left: 1px solid #0156ff;
+  border-right: 1px solid #0156ff;
+  padding: 0px 5px;
+}
+
+body .wrapper .cotalog .content .card .price-p .price-p-btn ul .price-max {
+  padding: 0px 5px;
+}
+
+body .wrapper .cotalog .content .card .price-p .price-p-btn ul .price-cont {
+  background-color: #0156ff;
+}
+
 .products-container .cards .card .price-crossed-out,
 .three-container .cards .card .price-crossed-out,
 .four-container .cards .card .price-crossed-out,
@@ -1187,6 +1226,26 @@ header hr {
 .cotalog .content .card .price .add-to-card:hover {
   background-color: white;
   color: #0156ff;
+}
+
+body .wrapper .cotalog .content .card .price-p .in-the-cart {
+  font-family: "Poppins";
+  font-weight: 600;
+  font-size: 12px;
+  color: #0156ff;
+  background-color: #fff;
+  padding-left: 10px;
+  padding-right: 10px;
+  border: 1px solid #0156ff;
+  -webkit-transition: 0.5s ease-in-out;
+  transition: 0.5s ease-in-out;
+  border-radius: 50px;
+}
+
+body .wrapper .cotalog .content .card .price-p .in-the-cart:hover {
+  border-color: red;
+  color: red;
+  text-decoration: underline;
 }
 
 .products-container .cards .card .two p,
@@ -3497,6 +3556,17 @@ body .wrapper .main-register .main-form .create-account .btn-reg-right:hover {
   border: 1px solid red;
 }
 
+body .wrapper .first-container header .top-2 .search #counter-basket-result {
+  background-color: #0156ff;
+  padding: 5px 7px;
+  border-radius: 15px;
+  color: white;
+  font-size: 10px;
+  position: absolute;
+  top: 25px;
+  right: 62px;
+}
+
 @media screen and (max-width: 1850px) {
   .wraper-bg-images {
     background-position: top 237px right 844px;
@@ -3644,9 +3714,6 @@ body .wrapper .main-register .main-form .create-account .btn-reg-right:hover {
         -ms-flex-pack: space-evenly;
             justify-content: space-evenly;
   }
-  /* .center{
-        max-width: 95%;
-    } */
   .center {
     max-width: 90%;
   }
@@ -4198,6 +4265,9 @@ body .wrapper .main-register .main-form .create-account .btn-reg-right:hover {
   .wraper-bg-images {
     background-position-y: 373px;
     height: 94vh;
+  }
+  body .wrapper .first-container header .top-2 .search #counter-basket-result {
+    top: 14px;
   }
 }
 
@@ -4787,6 +4857,10 @@ body .wrapper .main-register .main-form .create-account .btn-reg-right:hover {
     -webkit-box-pack: start;
         -ms-flex-pack: start;
             justify-content: start;
+  }
+  body .wrapper .first-container header .top-2 .search #counter-basket-result {
+    top: 14px;
+    right: 55px;
   }
 }
 /*# sourceMappingURL=main.css.map */
