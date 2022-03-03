@@ -459,19 +459,47 @@ header hr {
     }
     .cart1 {
         display: flex;
-        .cart-p {
-            margin-left: 24px;
-            font-family: Poppins;
-            font-size: 18px;
-            line-height: 140%;
-            color: #000000;
-            margin-right: 4px;
+        .cart1-add {
+            display: flex;
+            flex-direction: column;
             align-self: center;
-            white-space: nowrap;
-            span {
-                font-size: 14px;
+            .cart-p {
+                margin-left: 24px;
+                margin-right: 4px;
+                text-align: center;
+                font-family: Poppins;
+                font-size: 18px;
+                line-height: 140%;
+                color: #000000;
+                align-self: center;
+                white-space: nowrap;
+                span {
+                    font-size: 14px;
+                }
+            }
+            ul {
+                display: flex;
+                justify-content: space-between;
+                border: 1px solid #0156ff;
+                // margin-left: 4px;
+                margin: 0 auto;
+                .price-min {
+                    padding: 0px 4px;
+                }
+                .price-result {
+                    border-left: 1px solid #0156ff;
+                    border-right: 1px solid #0156ff;
+                    padding: 0px 4px;
+                }
+                .price-max {
+                    padding: 0px 4px;
+                }
+                .price-cont {
+                    background-color: #0156ff;
+                }
             }
         }
+
         .cart-photo {
             margin: 18px 4px 19px;
             width: 65px;
@@ -490,6 +518,7 @@ header hr {
         }
     }
     .card-icon {
+        cursor: pointer;
         img {
             width: 20px;
             height: 20px;
@@ -786,33 +815,14 @@ body {
         .cotalog {
             .content {
                 .card {
-                    .price-p {
-                        .price-p-btn {
-                            display: flex;
-                            justify-content: space-between;
-                            margin-bottom: 5px;
-                            ul {
-                                display: flex;
-                                justify-content: space-between;
-                                border: 1px solid #0156ff;
-                                margin-right: 15px;
-                                .price-min {
-                                    padding: 0px 5px;
-                                }
-                                .price-result {
-                                    border-left: 1px solid #0156ff;
-                                    border-right: 1px solid #0156ff;
-                                    padding: 0px 5px;
-                                }
-                                .price-max {
-                                    padding: 0px 5px;
-                                }
-                                .price-cont {
-                                    background-color: #0156ff;
-                                }
-                            }
-                        }
-                    }
+                    // .price-p {
+                    //     .price-p-btn {
+                    //         display: flex;
+                    //         justify-content: space-between;
+                    //         margin-bottom: 5px;
+
+                    //     }
+                    // }
                 }
             }
         }
@@ -847,6 +857,14 @@ body {
     line-height: 140%;
     color: #000000;
 }
+.products-container .cards .card .price span,
+.three-container .cards .card .price span,
+.four-container .cards .card .price span,
+.five-container .cards .card .price span,
+.six-container .cards .card .price span,
+.cotalog .content .card .price span{
+    margin-right: auto;
+}
 .products-container .cards .card .price .add-to-card,
 .three-container .cards .card .price .add-to-card,
 .four-container .cards .card .price .add-to-card,
@@ -875,12 +893,13 @@ body {
 }
 
 // price in the cart
+// page 1.html
 body {
     .wrapper {
-        .cotalog {
-            .content {
-                .card {
-                    .price-p {
+        .center {
+            .cards {
+                .price-p {
+                    .price {
                         .in-the-cart {
                             font-family: "Poppins";
                             font-weight: 600;
@@ -896,6 +915,38 @@ body {
                                 border-color: red;
                                 color: red;
                                 text-decoration: underline;
+                            }
+                        }
+                    }
+                }
+            }
+        }
+    }
+}
+// page 2.html
+body {
+    .wrapper {
+        .cotalog {
+            .content {
+                .card {
+                    .price-p {
+                        .price {
+                            .in-the-cart {
+                                font-family: "Poppins";
+                                font-weight: 600;
+                                font-size: 12px;
+                                color: #0156ff;
+                                background-color: #fff;
+                                padding-left: 10px;
+                                padding-right: 10px;
+                                border: 1px solid #0156ff;
+                                transition: 0.5s ease-in-out;
+                                border-radius: 50px;
+                                &:hover {
+                                    border-color: red;
+                                    color: red;
+                                    text-decoration: underline;
+                                }
                             }
                         }
                     }

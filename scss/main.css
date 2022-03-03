@@ -726,21 +726,63 @@ header hr {
   display: flex;
 }
 
-.my-cart .cart1 .cart-p {
+.my-cart .cart1 .cart1-add {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -ms-flex-item-align: center;
+      align-self: center;
+}
+
+.my-cart .cart1 .cart1-add .cart-p {
   margin-left: 24px;
+  margin-right: 4px;
+  text-align: center;
   font-family: Poppins;
   font-size: 18px;
   line-height: 140%;
   color: #000000;
-  margin-right: 4px;
   -ms-flex-item-align: center;
       -ms-grid-row-align: center;
       align-self: center;
   white-space: nowrap;
 }
 
-.my-cart .cart1 .cart-p span {
+.my-cart .cart1 .cart1-add .cart-p span {
   font-size: 14px;
+}
+
+.my-cart .cart1 .cart1-add ul {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  border: 1px solid #0156ff;
+  margin: 0 auto;
+}
+
+.my-cart .cart1 .cart1-add ul .price-min {
+  padding: 0px 4px;
+}
+
+.my-cart .cart1 .cart1-add ul .price-result {
+  border-left: 1px solid #0156ff;
+  border-right: 1px solid #0156ff;
+  padding: 0px 4px;
+}
+
+.my-cart .cart1 .cart1-add ul .price-max {
+  padding: 0px 4px;
+}
+
+.my-cart .cart1 .cart1-add ul .price-cont {
+  background-color: #0156ff;
 }
 
 .my-cart .cart1 .cart-photo {
@@ -763,6 +805,10 @@ header hr {
       -ms-grid-row-align: center;
       align-self: center;
   width: 153px;
+}
+
+.my-cart .card-icon {
+  cursor: pointer;
 }
 
 .my-cart .card-icon img {
@@ -1125,45 +1171,6 @@ header hr {
   margin: 0 24px;
 }
 
-body .wrapper .cotalog .content .card .price-p .price-p-btn {
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-box-pack: justify;
-      -ms-flex-pack: justify;
-          justify-content: space-between;
-  margin-bottom: 5px;
-}
-
-body .wrapper .cotalog .content .card .price-p .price-p-btn ul {
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-box-pack: justify;
-      -ms-flex-pack: justify;
-          justify-content: space-between;
-  border: 1px solid #0156ff;
-  margin-right: 15px;
-}
-
-body .wrapper .cotalog .content .card .price-p .price-p-btn ul .price-min {
-  padding: 0px 5px;
-}
-
-body .wrapper .cotalog .content .card .price-p .price-p-btn ul .price-result {
-  border-left: 1px solid #0156ff;
-  border-right: 1px solid #0156ff;
-  padding: 0px 5px;
-}
-
-body .wrapper .cotalog .content .card .price-p .price-p-btn ul .price-max {
-  padding: 0px 5px;
-}
-
-body .wrapper .cotalog .content .card .price-p .price-p-btn ul .price-cont {
-  background-color: #0156ff;
-}
-
 .products-container .cards .card .price-crossed-out,
 .three-container .cards .card .price-crossed-out,
 .four-container .cards .card .price-crossed-out,
@@ -1199,6 +1206,15 @@ body .wrapper .cotalog .content .card .price-p .price-p-btn ul .price-cont {
   color: #000000;
 }
 
+.products-container .cards .card .price span,
+.three-container .cards .card .price span,
+.four-container .cards .card .price span,
+.five-container .cards .card .price span,
+.six-container .cards .card .price span,
+.cotalog .content .card .price span {
+  margin-right: auto;
+}
+
 .products-container .cards .card .price .add-to-card,
 .three-container .cards .card .price .add-to-card,
 .four-container .cards .card .price .add-to-card,
@@ -1228,7 +1244,7 @@ body .wrapper .cotalog .content .card .price-p .price-p-btn ul .price-cont {
   color: #0156ff;
 }
 
-body .wrapper .cotalog .content .card .price-p .in-the-cart {
+body .wrapper .center .cards .price-p .price .in-the-cart {
   font-family: "Poppins";
   font-weight: 600;
   font-size: 12px;
@@ -1242,7 +1258,27 @@ body .wrapper .cotalog .content .card .price-p .in-the-cart {
   border-radius: 50px;
 }
 
-body .wrapper .cotalog .content .card .price-p .in-the-cart:hover {
+body .wrapper .center .cards .price-p .price .in-the-cart:hover {
+  border-color: red;
+  color: red;
+  text-decoration: underline;
+}
+
+body .wrapper .cotalog .content .card .price-p .price .in-the-cart {
+  font-family: "Poppins";
+  font-weight: 600;
+  font-size: 12px;
+  color: #0156ff;
+  background-color: #fff;
+  padding-left: 10px;
+  padding-right: 10px;
+  border: 1px solid #0156ff;
+  -webkit-transition: 0.5s ease-in-out;
+  transition: 0.5s ease-in-out;
+  border-radius: 50px;
+}
+
+body .wrapper .cotalog .content .card .price-p .price .in-the-cart:hover {
   border-color: red;
   color: red;
   text-decoration: underline;
