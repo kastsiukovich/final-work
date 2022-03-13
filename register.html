@@ -1,14 +1,19 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="ru">
 
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- <meta name="viewport" content="width=device-width, initial-scale=1"> -->
     <title>Register</title>
     <link rel="stylesheet" href="./lib/animate.min.css" />
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.1/dist/css/bootstrap.min.css" rel="stylesheet"
-        integrity="sha384-F3w7mX95PdgyTmZZMECAngseQB83DfGTowi0iMjiWaeVhAn4FJkqJByhZMI3AhiU" crossorigin="anonymous">
+
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+
+    <!-- <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.1/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-F3w7mX95PdgyTmZZMECAngseQB83DfGTowi0iMjiWaeVhAn4FJkqJByhZMI3AhiU" crossorigin="anonymous"> -->
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link
@@ -21,6 +26,8 @@
 </head>
 
 <body>
+
+
     <div class="wrapper">
         <section class="first-container">
             <header>
@@ -152,6 +159,47 @@
 
             </header>
         </section>
+        <!-- MODAL  -->
+        <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+            <div class="modal-dialog">
+                <div class="modal-content">
+                    <div class="modal-header">
+                        <h5 class="modal-title" id="exampleModalLabel">Create an Account</h5>
+                        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                    </div>
+                    <div class="modal-body">
+                        <form>
+                            <div class="mb-3">
+                                <label for="recipient-name" class="col-form-label">Enter your name:</label>
+                                <input name="recipient-name" type="text" class="form-control" id="name">
+                                <span></span>
+                            </div>
+                            <div class="mb-3">
+                                <label for="recipient-name" class="col-form-label">Enter email:</label>
+                                <input name="email" type="text" class="form-control" id="email">
+                                <span></span>
+                            </div>
+                            <div class="mb-3">
+                                <label for="recipient-name" class="col-form-label">Enter password:</label>
+                                <input name="password" type="text" class="form-control" id="password">
+                                <span></span>
+                            </div>
+                            <div class="mb-3">
+                                <label for="recipient-name" class="col-form-label">Сonfirm password:</label>
+                                <input name="confirm-password" type="text" class="form-control" id="confirm-password">
+                                <span></span>
+                            </div>
+                        </form>
+                    </div>
+                    <div class="modal-footer create-account">
+                        <button type="button" class="btn btn-cancel" data-bs-dismiss="modal">Сancell</button>
+                        <!-- <button type="button" class="btn  btn-reg-right">Next</button> -->
+                        <button type="button" class="btn  btn-reg-right">Submit</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- </section> -->
         <section class="register center">
             <nav class="way" style="--bs-breadcrumb-divider: '›'; " aria-label="breadcrumb">
                 <ol class="breadcrumb items">
@@ -163,6 +211,7 @@
 
         </section>
         <main class="main-register center">
+
             <h1 class="customer">Customer Login</h1>
             <div class="main-form">
                 <!-- action="#" method="get" -->
@@ -215,10 +264,19 @@
                         <li class="text">Keep more than one address</li>
                         <li class="text">Track orders and more</li>
                     </ul>
-                    <button type="button" class="btn-reg-right">Create An Account</button>
+                    <!-- <button type="button" class="btn-reg-right">Create An Account</button> -->
+                    <button type="button" class="btn btn-primary btn-reg-right" data-bs-toggle="modal"
+                        data-bs-target="#exampleModal" data-bs-whatever="@mdo">Create An Account</button>
                     <!-- <span class="span-create-account"></span> -->
                     <!-- </div> -->
                 </form>
+                <!-- <div class="modal-window">
+
+                    <button type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#exampleModal"
+                    data-bs-whatever="@fat">Open modal for @fat</button>
+                <button type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#exampleModal"
+                    data-bs-whatever="@getbootstrap">Open modal for @getbootstrap</button>
+                </div> -->
             </div>
         </main>
         <section class="bg-page-2-3-4-ten-cont">
@@ -358,10 +416,13 @@
 
     </div>
 
-
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.1/dist/js/bootstrap.min.js"
-        integrity="sha384-skAcpIdS7UcVUC05LJ9Dxay8AXcDYfBJqt1CJ85S/CFujBsIzCIv+l9liuYLaMQ/"
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"
         crossorigin="anonymous"></script>
+
+    <!-- <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.1/dist/js/bootstrap.min.js"
+        integrity="sha384-skAcpIdS7UcVUC05LJ9Dxay8AXcDYfBJqt1CJ85S/CFujBsIzCIv+l9liuYLaMQ/"
+        crossorigin="anonymous"></script> -->
 
     <script src="lib/wow.min.js"></script>
     <script>new WOW().init();</script>

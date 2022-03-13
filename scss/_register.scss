@@ -33,6 +33,55 @@ $color_red: #c94d3f;
 
 body {
    .wrapper {
+      .modal {
+         .modal-dialog {
+            .modal-content {
+               .create-account {
+                  flex-direction: column;
+                  display: flex;
+                  background-color: #f5f7ff;
+                  width: auto;
+                  padding: 38px 57px;
+                  .btn-reg-right {
+                     @include btn(Poppins, 600, 14px, 21px, #ffffff, 14px, #0156ff, 50px);
+                     padding-left: 38px;
+                     padding-right: 38px;
+                     margin-top: 28px;
+                     margin-right: 23px;
+                     border: 1px solid $color_blue;
+                     width: 214px;
+                     transition: 0.5s ease-in-out;
+                     &:hover {
+                        background-color: white;
+                        color: $color_blue;
+                     }
+                  }
+                  .btn-cancel {
+                     @include btn(Poppins, 600, 14px, 21px, blue, 14px, #fff, 50px);
+                     padding-left: 38px;
+                     padding-right: 38px;
+                     margin-top: 28px;
+                     margin-right: 23px;
+                     border: 1px solid $color_blue;
+                     width: 214px;
+                     transition: 0.5s ease-in-out;
+                     &:hover {
+                        border-color: $color_black;
+                        background-color: $color_black;
+                        color: white;
+                     }
+                  }
+               }
+            }
+         }
+      }
+      // .modal-window {
+      //    // z-index: 200;
+      //    // margin-top: 400px;
+      //    .selector-for-some-widget {
+      //       box-sizing: content-box;
+      //    }
+      // }
       .register {
          .way {
             padding-top: 157px;
@@ -195,6 +244,9 @@ body {
                      color: $color_blue;
                   }
                }
+               // .btn-reg-right{
+
+               // }
             }
          }
       }
@@ -259,6 +311,30 @@ body {
    }
 }
 @media screen and (max-width: 425px) {
+   body {
+      .wrapper {
+         .modal {
+            .modal-dialog {
+               .modal-content {
+                  .create-account {
+                     padding: 0;
+                     justify-content: center;
+                     .btn-reg-right {
+                        margin:14px 0px;
+                        width: 95%;
+                     }
+                     .btn-cancel {
+                        width: 95%;
+                        margin:14px 0px;
+                        
+                     }
+                  }
+               }
+            }
+         }
+      }
+   }
+
    body {
       .wrapper {
          .main-register {
