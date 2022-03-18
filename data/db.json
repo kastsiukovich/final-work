@@ -4,461 +4,507 @@
       "id": 1,
       "name": "new products",
       "src": "./images/new-products-image-1.png",
-      "description": "EX DISPLAY : MSI Pro 16 Flex-036AU 15.6 MULTITOUCH All-In-On",
-      "old cost": "700",
+      "description": "AAAAAAAAAAAAAA",
+      "old_cost": "700",
       "cost": "650",
       "quantity": "10",
-      "availability": "in stock"
+      "availability": "in stock",
+      "src_availability": "./images/group-132.svg"
     },
     {
       "id": 2,
       "name": "new products",
       "src": "./images/new-products-image-2.png",
-      "description": "EX DISPLAY : MSI Pro 16 Flex-036AU 15.6 MULTITOUCH All-In-On",
-      "old cost": "900",
+      "description": "BBBBBBBBBBBB",
+      "old_cost": "900",
       "cost": "880",
       "quantity": "10",
-      "availability": "check availability"
+      "availability": "check availability",
+      "src_availability": "./images/group-135.svg"
     },
     {
       "id": 3,
       "name": "new products",
       "src": "./images/new-products-image-3-5-6.png",
-      "description": "EX DISPLAY : MSI Pro 16 Flex-036AU 15.6 MULTITOUCH All-In-On",
-      "old cost": "1200",
+      "description": "CCCCCCCCCCCCCCCCCCC",
+      "old_cost": "1200",
       "cost": "1100",
       "quantity": "10",
-      "availability": "in stock"
+      "availability": "in stock",
+      "src_availability": "./images/group-132.svg"
     },
     {
       "id": 4,
       "name": "new products",
       "src": "./images/new-products-image-4.png",
-      "description": "EX DISPLAY : MSI Pro 16 Flex-036AU 15.6 MULTITOUCH All-In-On",
-      "old cost": "2200",
+      "description": "DDDDDDDDDDDDDDDDD",
+      "old_cost": "2200",
       "cost": "2000",
       "quantity": "10",
-      "availability": "in stock"
+      "availability": "in stock",
+      "src_availability": "./images/group-132.svg"
     },
     {
       "id": 5,
       "name": "new products",
       "src": "./images/new-products-image-3-5-6.png",
       "description": "EX DISPLAY : MSI Pro 16 Flex-036AU 15.6 MULTITOUCH All-In-On",
-      "old cost": "3500",
+      "old_cost": "3500",
       "cost": "2900",
       "quantity": "10",
-      "availability": "in stock"
+      "availability": "in stock",
+      "src_availability": "./images/group-132.svg"
     },
     {
       "id": 6,
       "name": "new products",
       "src": "./images/new-products-image-3-5-6.png",
       "description": "EX DISPLAY : MSI Pro 16 Flex-036AU 15.6 MULTITOUCH All-In-On",
-      "old cost": "3000",
+      "old_cost": "3000",
       "cost": "3000",
       "quantity": "10",
-      "availability": "in stock"
+      "availability": "in stock",
+      "src_availability": "./images/group-132.svg"
     },
     {
       "id": 7,
       "name": "builds",
       "src": "./images/custome-builds-2.png",
       "description": "EX DISPLAY : MSI Pro 16 Flex-036AU 15.6 MULTITOUCH All-In-On",
-      "old cost": "4500",
+      "old_cost": "4500",
       "cost": "4050",
       "quantity": "10",
-      "availability": "in stock"
+      "availability": "in stock",
+      "src_availability": "./images/group-132.svg"
     },
     {
       "id": 8,
       "name": "builds",
       "src": "./images/custome-builds-3.png",
       "description": "EX DISPLAY : MSI Pro 16 Flex-036AU 15.6 MULTITOUCH All-In-On",
-      "old cost": "4400",
+      "old_cost": "4400",
       "cost": "4300",
       "quantity": "10",
-      "availability": "in stock"
+      "availability": "in stock",
+      "src_availability": "./images/group-132.svg"
     },
     {
       "id": 9,
       "name": "builds",
       "src": "./images/custome-builds-4.png",
       "description": "EX DISPLAY : MSI Pro 16 Flex-036AU 15.6 MULTITOUCH All-In-On",
-      "old cost": "3900",
+      "old_cost": "3900",
       "cost": "3800",
       "quantity": "10",
-      "availability": "in stock"
+      "availability": "in stock",
+      "src_availability": "./images/group-132.svg"
     },
     {
       "id": 10,
       "name": "builds",
       "src": "./images/custome-builds-5.png",
       "description": "EX DISPLAY : MSI Pro 16 Flex-036AU 15.6 MULTITOUCH All-In-On",
-      "old cost": "4400",
+      "old_cost": "4400",
       "cost": "4300",
       "quantity": "10",
-      "availability": "in stock"
+      "availability": "in stock",
+      "src_availability": "./images/group-132.svg"
     },
     {
       "id": 11,
       "name": "builds",
       "src": "./images/custome-builds-6.png",
       "description": "EX DISPLAY : MSI Pro 16 Flex-036AU 15.6 MULTITOUCH All-In-On",
-      "old cost": "4000",
+      "old_cost": "4000",
       "cost": "3850",
       "quantity": "10",
-      "availability": "in stock"
+      "availability": "in stock",
+      "src_availability": "./images/group-132.svg"
     },
     {
       "id": 12,
       "name": "laptops",
       "src": "./images/laptops-image-2.png",
       "description": "EX DISPLAY : MSI Pro 16 Flex-036AU 15.6 MULTITOUCH All-In-On",
-      "old cost": "600",
+      "old_cost": "600",
       "cost": "590",
       "quantity": "10",
-      "availability": "in stock"
+      "availability": "in stock",
+      "src_availability": "./images/group-132.svg"
     },
     {
       "id": 13,
       "name": "laptops",
       "src": "./images/laptops-image-3.png",
       "description": "EX DISPLAY : MSI Pro 16 Flex-036AU 15.6 MULTITOUCH All-In-On",
-      "old cost": "780",
+      "old_cost": "780",
       "cost": "690",
       "quantity": "10",
-      "availability": "in stock"
+      "availability": "in stock",
+      "src_availability": "./images/group-132.svg"
     },
     {
       "id": 14,
       "name": "laptops",
       "src": "./images/laptops-image-4-5.png",
       "description": "EX DISPLAY : MSI Pro 16 Flex-036AU 15.6 MULTITOUCH All-In-On",
-      "old cost": "2800",
+      "old_cost": "2800",
       "cost": "2700",
       "quantity": "10",
-      "availability": "in stock"
+      "availability": "in stock",
+      "src_availability": "./images/group-132.svg"
     },
     {
       "id": 15,
       "name": "laptops",
       "src": "./images/laptops-image-4-5.png",
       "description": "EX DISPLAY : MSI Pro 16 Flex-036AU 15.6 MULTITOUCH All-In-On",
-      "old cost": "2500",
+      "old_cost": "2500",
       "cost": "2400",
       "quantity": "10",
-      "availability": "in stock"
+      "availability": "in stock",
+      "src_availability": "./images/group-132.svg"
     },
     {
       "id": 16,
       "name": "laptops",
       "src": "./images/laptops-image-6.png",
       "description": "EX DISPLAY : MSI Pro 16 Flex-036AU 15.6 MULTITOUCH All-In-On",
-      "old cost": "500",
+      "old_cost": "500",
       "cost": "490",
       "quantity": "10",
-      "availability": "in stock"
+      "availability": "in stock",
+      "src_availability": "./images/group-132.svg"
     },
     {
       "id": 17,
       "name": "desctops",
       "src": "./images/desctops-image-2.png",
       "description": "EX DISPLAY : MSI Pro 16 Flex-036AU 15.6 MULTITOUCH All-In-On",
-      "old cost": "900",
+      "old_cost": "900",
       "cost": "850",
       "quantity": "10",
-      "availability": "in stock"
+      "availability": "in stock",
+      "src_availability": "./images/group-132.svg"
     },
     {
       "id": 18,
       "name": "desctops",
       "src": "./images/desctops-image-3.png",
       "description": "EX DISPLAY : MSI Pro 16 Flex-036AU 15.6 MULTITOUCH All-In-On",
-      "old cost": "700",
+      "old_cost": "700",
       "cost": "680",
       "quantity": "10",
-      "availability": "in stock"
+      "availability": "in stock",
+      "src_availability": "./images/group-132.svg"
     },
     {
       "id": 19,
       "name": "desctops",
       "src": "./images/desctops-image-4-5-6.png",
       "description": "EX DISPLAY : MSI Pro 16 Flex-036AU 15.6 MULTITOUCH All-In-On",
-      "old cost": "2100",
+      "old_cost": "2100",
       "cost": "2000",
       "quantity": "10",
-      "availability": "in stock"
+      "availability": "in stock",
+      "src_availability": "./images/group-132.svg"
     },
     {
       "id": 20,
       "name": "desctops",
       "src": "./images/desctops-image-4-5-6.png",
       "description": "EX DISPLAY : MSI Pro 16 Flex-036AU 15.6 MULTITOUCH All-In-On",
-      "old cost": "880",
+      "old_cost": "880",
       "cost": "750",
       "quantity": "10",
-      "availability": "in stock"
+      "availability": "in stock",
+      "src_availability": "./images/group-132.svg"
     },
     {
       "id": 21,
       "name": "desctops",
       "src": "./images/desctops-image-4-5-6.png",
       "description": "EX DISPLAY : MSI Pro 16 Flex-036AU 15.6 MULTITOUCH All-In-On",
-      "old cost": "800",
+      "old_cost": "800",
       "cost": "750",
       "quantity": "10",
-      "availability": "in stock"
+      "availability": "in stock",
+      "src_availability": "./images/group-132.svg"
     },
     {
       "id": 22,
       "name": "monitors",
       "src": "./images/gaming-manitors-2.png",
       "description": "EX DISPLAY : MSI Pro 16 Flex-036AU 15.6 MULTITOUCH All-In-On",
-      "old cost": "4500",
+      "old_cost": "4500",
       "cost": "4400",
       "quantity": "10",
-      "availability": "in stock"
+      "availability": "in stock",
+      "src_availability": "./images/group-132.svg"
     },
     {
       "id": 23,
       "name": "monitors",
       "src": "./images/gaming-manitors-3-6.png",
       "description": "EX DISPLAY : MSI Pro 16 Flex-036AU 15.6 MULTITOUCH All-In-On",
-      "old cost": "500",
+      "old_cost": "500",
       "cost": "450",
       "quantity": "10",
-      "availability": "in stock"
+      "availability": "in stock",
+      "src_availability": "./images/group-132.svg"
     },
     {
       "id": 24,
       "name": "monitors",
       "src": "./images/gaming-manitors-4.png",
       "description": "EX DISPLAY : MSI Pro 16 Flex-036AU 15.6 MULTITOUCH All-In-On",
-      "old cost": "1500",
+      "old_cost": "1500",
       "cost": "1450",
       "quantity": "10",
-      "availability": "in stock"
+      "availability": "in stock",
+      "src_availability": "./images/group-132.svg"
     },
     {
       "id": 25,
       "name": "monitors",
       "src": "./images/gaming-manitors-5.png",
       "description": "EX DISPLAY : MSI Pro 16 Flex-036AU 15.6 MULTITOUCH All-In-On",
-      "old cost": "800",
+      "old_cost": "800",
       "cost": "780",
       "quantity": "10",
-      "availability": "in stock"
+      "availability": "in stock",
+      "src_availability": "./images/group-132.svg"
     },
     {
       "id": 26,
       "name": "monitors",
       "src": "./images/gaming-manitors-3-6.png",
       "description": "EX DISPLAY : MSI Pro 16 Flex-036AU 15.6 MULTITOUCH All-In-On",
-      "old cost": "990",
+      "old_cost": "990",
       "cost": "980",
       "quantity": "10",
-      "availability": "in stock"
+      "availability": "in stock",
+      "src_availability": "./images/group-132.svg"
     },
     {
       "id": 27,
       "name": "laptops",
       "src": "./images/catalog-img-1.png",
       "description": "EX DISPLAY : MSI Pro 16 Flex-036AU 15.6 MULTITOUCH All-In-On",
-      "old cost": "550",
+      "old_cost": "550",
       "cost": "550",
       "quantity": "10",
-      "availability": "in stock"
+      "availability": "in stock",
+      "src_availability": "./images/group-132.svg"
     },
     {
       "id": 28,
       "name": "laptops",
       "src": "./images/catalog-img-1.png",
       "description": "EX DISPLAY : MSI Pro 16 Flex-036AU 15.6 MULTITOUCH All-In-On",
-      "old cost": "520",
+      "old_cost": "520",
       "cost": "492",
       "quantity": "10",
-      "availability": "in stock"
+      "availability": "in stock",
+      "src_availability": "./images/group-132.svg"
     },
     {
       "id": 29,
       "name": "laptops",
       "src": "./images/catalog-img-3.png",
       "description": "EX DISPLAY : MSI Pro 16 Flex-036AU 15.6 MULTITOUCH All-In-On",
-      "old cost": "1500",
+      "old_cost": "1500",
       "cost": "1490",
       "quantity": "10",
-      "availability": "in stock"
+      "availability": "in stock",
+      "src_availability": "./images/group-132.svg"
     },
     {
       "id": 30,
       "name": "laptops",
       "src": "./images/catalog-img-4.png",
       "description": "EX DISPLAY : MSI Pro 16 Flex-036AU 15.6 MULTITOUCH All-In-On",
-      "old cost": "2500",
+      "old_cost": "2500",
       "cost": "2490",
       "quantity": "10",
-      "availability": "in stock"
+      "availability": "in stock",
+      "src_availability": "./images/group-132.svg"
     },
     {
       "id": 31,
       "name": "laptops",
       "src": "./images/catalog-img-5.png",
       "description": "EX DISPLAY : MSI Pro 16 Flex-036AU 15.6 MULTITOUCH All-In-On",
-      "old cost": "3500",
+      "old_cost": "3500",
       "cost": "3490",
       "quantity": "10",
-      "availability": "in stock"
+      "availability": "in stock",
+      "src_availability": "./images/group-132.svg"
     },
     {
       "id": 32,
       "name": "laptops",
       "src": "./images/catalog-img-6.png",
       "description": "EX DISPLAY : MSI Pro 16 Flex-036AU 15.6 MULTITOUCH All-In-On",
-      "old cost": "400",
+      "old_cost": "400",
       "cost": "400",
       "quantity": "10",
-      "availability": "in stock"
+      "availability": "in stock",
+      "src_availability": "./images/group-132.svg"
     },
     {
       "id": 33,
       "name": "laptops",
       "src": "./images/catalog-img-7.png",
       "description": "EX DISPLAY : MSI Pro 16 Flex-036AU 15.6 MULTITOUCH All-In-On",
-      "old cost": "1200",
+      "old_cost": "1200",
       "cost": "1290",
       "quantity": "10",
-      "availability": "in stock"
+      "availability": "in stock",
+      "src_availability": "./images/group-132.svg"
     },
     {
       "id": 34,
       "name": "laptops",
       "src": "./images/catalog-img-8.png",
       "description": "EX DISPLAY : MSI Pro 16 Flex-036AU 15.6 MULTITOUCH All-In-On",
-      "old cost": "1300",
+      "old_cost": "1300",
       "cost": "1390",
       "quantity": "10",
-      "availability": "in stock"
+      "availability": "in stock",
+      "src_availability": "./images/group-132.svg"
     },
     {
       "id": 35,
       "name": "laptops",
       "src": "./images/catalog-img-9.png",
       "description": "EX DISPLAY : MSI Pro 16 Flex-036AU 15.6 MULTITOUCH All-In-On",
-      "old cost": "2000",
+      "old_cost": "2000",
       "cost": "1990",
       "quantity": "10",
-      "availability": "in stock"
+      "availability": "in stock",
+      "src_availability": "./images/group-132.svg"
     },
     {
       "id": 36,
       "name": "laptops",
       "src": "./images/catalog-img-10.png",
       "description": "EX DISPLAY : MSI Pro 16 Flex-036AU 15.6 MULTITOUCH All-In-On",
-      "old cost": "5000",
+      "old_cost": "5000",
       "cost": "4900",
       "quantity": "10",
-      "availability": "in stock"
+      "availability": "in stock",
+      "src_availability": "./images/group-132.svg"
     },
     {
       "id": 37,
       "name": "laptops",
       "src": "./images/catalog-img-11.png",
       "description": "EX DISPLAY : MSI Pro 16 Flex-036AU 15.6 MULTITOUCH All-In-On",
-      "old cost": "2330",
+      "old_cost": "2330",
       "cost": "2320",
       "quantity": "10",
-      "availability": "in stock"
+      "availability": "in stock",
+      "src_availability": "./images/group-132.svg"
     },
     {
       "id": 38,
       "name": "laptops",
       "src": "./images/catalog-img-12.png",
       "description": "EX DISPLAY : MSI Pro 16 Flex-036AU 15.6 MULTITOUCH All-In-On",
-      "old cost": "3232",
+      "old_cost": "3232",
       "cost": "3221",
       "quantity": "10",
-      "availability": "in stock"
+      "availability": "in stock",
+      "src_availability": "./images/group-132.svg"
     },
     {
       "id": 39,
       "name": "laptops",
       "src": "./images/catalog-img-13.png",
       "description": "EX DISPLAY : MSI Pro 16 Flex-036AU 15.6 MULTITOUCH All-In-On",
-      "old cost": "2520",
+      "old_cost": "2520",
       "cost": "2519",
       "quantity": "10",
-      "availability": "in stock"
+      "availability": "in stock",
+      "src_availability": "./images/group-132.svg"
     },
     {
       "id": 40,
       "name": "laptops",
       "src": "./images/catalog-img-14.png",
       "description": "EX DISPLAY : MSI Pro 16 Flex-036AU 15.6 MULTITOUCH All-In-On",
-      "old cost": "2300",
+      "old_cost": "2300",
       "cost": "2100",
       "quantity": "10",
-      "availability": "in stock"
+      "availability": "in stock",
+      "src_availability": "./images/group-132.svg"
     },
     {
       "id": 41,
       "name": "laptops",
       "src": "./images/catalog-img-15.png",
       "description": "EX DISPLAY : MSI Pro 16 Flex-036AU 15.6 MULTITOUCH All-In-On",
-      "old cost": "2500",
+      "old_cost": "2500",
       "cost": "2490",
       "quantity": "10",
-      "availability": "in stock"
+      "availability": "in stock",
+      "src_availability": "./images/group-132.svg"
     },
     {
       "id": 42,
       "name": "laptops",
       "src": "./images/catalog-img-16.png",
       "description": "EX DISPLAY : MSI Pro 16 Flex-036AU 15.6 MULTITOUCH All-In-On",
-      "old cost": "3500",
+      "old_cost": "3500",
       "cost": "3490",
       "quantity": "10",
-      "availability": "in stock"
+      "availability": "in stock",
+      "src_availability": "./images/group-132.svg"
     },
     {
       "id": 43,
       "name": "laptops",
       "src": "./images/catalog-img-17.png",
       "description": "EX DISPLAY : MSI Pro 16 Flex-036AU 15.6 MULTITOUCH All-In-On",
-      "old cost": "4500",
+      "old_cost": "4500",
       "cost": "4490",
       "quantity": "10",
-      "availability": "in stock"
+      "availability": "in stock",
+      "src_availability": "./images/group-132.svg"
     },
     {
       "id": 44,
       "name": "laptops",
       "src": "./images/catalog-img-18.png",
       "description": "EX DISPLAY : MSI Pro 16 Flex-036AU 15.6 MULTITOUCH All-In-On",
-      "old cost": "5500",
+      "old_cost": "5500",
       "cost": "5490",
       "quantity": "10",
-      "availability": "in stock"
+      "availability": "in stock",
+      "src_availability": "./images/group-132.svg"
     },
     {
       "id": 45,
       "name": "laptops",
       "src": "./images/catalog-img-19.png",
       "description": "EX DISPLAY : MSI Pro 16 Flex-036AU 15.6 MULTITOUCH All-In-On",
-      "old cost": "6500",
+      "old_cost": "6500",
       "cost": "6490",
       "quantity": "10",
-      "availability": "in stock"
+      "availability": "in stock",
+      "src_availability": "./images/group-132.svg"
     },
     {
       "id": 46,
       "name": "laptops",
       "src": "./images/catalog-img-20.png",
       "description": "EX DISPLAY : MSI Pro 16 Flex-036AU 15.6 MULTITOUCH All-In-On",
-      "old cost": "12500",
+      "old_cost": "12500",
       "cost": "12490",
       "quantity": "10",
-      "availability": "in stock"
+      "availability": "in stock",
+      "src_availability": "./images/group-132.svg"
     }
   ]
 }

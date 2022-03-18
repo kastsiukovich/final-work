@@ -1,4 +1,5 @@
 @import "./nullstyle";
+@import "./register";
 
 body {
     font-family: "Alef", sans-serif;
@@ -675,6 +676,7 @@ header hr {
 }
 .products-container .cards,
 .three-container .cards,
+// .three-container .cards .three-container-content-wrapper,
 .four-container .cards,
 .five-container .cards,
 .six-container .cards,
@@ -683,7 +685,9 @@ header hr {
     justify-content: space-between;
     margin-bottom: 18px;
 }
-
+.three-container .cards .three-container-content-wrapper {
+    // width: auto;
+}
 .products-container .cards .card .item,
 .three-container .cards .card .item,
 .four-container .cards .card .item,
@@ -810,24 +814,24 @@ header hr {
     height: 68px;
     margin: 0 24px;
 }
-body {
-    .wrapper {
-        .cotalog {
-            .content {
-                .card {
-                    // .price-p {
-                    //     .price-p-btn {
-                    //         display: flex;
-                    //         justify-content: space-between;
-                    //         margin-bottom: 5px;
+// body {
+//     .wrapper {
+//         .cotalog {
+//             .content {
+//                 .card {
+//                     // .price-p {
+//                     //     .price-p-btn {
+//                     //         display: flex;
+//                     //         justify-content: space-between;
+//                     //         margin-bottom: 5px;
 
-                    //     }
-                    // }
-                }
-            }
-        }
-    }
-}
+//                     //     }
+//                     // }
+//                 }
+//             }
+//         }
+//     }
+// }
 
 // price-p-btn
 .products-container .cards .card .price-crossed-out,
@@ -2454,6 +2458,47 @@ body {
         }
     }
 }
+.preloader {
+    position: fixed;
+    left: 0;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    overflow: hidden;
+    /* фоновый цвет */
+    background: #e0e0e0;
+    z-index: 1001;
+    //
+    opacity: 0;
+}
+
+.preloader__image {
+    position: relative;
+    top: 50%;
+    left: 50%;
+    width: 70px;
+    height: 70px;
+    margin-top: -35px;
+    margin-left: -35px;
+    text-align: center;
+    animation: preloader-rotate 2s infinite linear;
+}
+
+@keyframes preloader-rotate {
+    100% {
+        transform: rotate(360deg);
+    }
+}
+
+.loaded_hiding .preloader {
+    transition: 0.3s opacity;
+    opacity: 0;
+}
+
+.loaded .preloader {
+    // display: none;
+    opacity: 1;
+}
 
 @media screen and (max-width: 1850px) {
     .wraper-bg-images {
@@ -3107,6 +3152,9 @@ body {
     }
 }
 @media screen and (max-width: 650px) {
+    .price-crossed-out {
+        text-align: left;
+    }
     // .time-open{
     //     left: 3%;
     // }
