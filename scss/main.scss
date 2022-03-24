@@ -2467,7 +2467,7 @@ body {
     overflow: hidden;
     /* фоновый цвет */
     background: #e0e0e0;
-    z-index: 1001;
+    z-index: -100;
     //
     opacity: 0;
 }
@@ -2497,6 +2497,7 @@ body {
 
 .loaded .preloader {
     // display: none;
+    z-index: 1000;
     opacity: 1;
 }
 
