@@ -104,7 +104,9 @@
                                     alt="group-54"></a>
                             <span id="counter-basket-result"></span>
                         </li>
-                        <li><a href="#"><img src="./images/ellipse-8.jpg" alt="ellipse-8"></a></li>
+                        <li><a href="#"><img src="./images/ellipse-8.jpg" alt="ellipse-8"></a>
+                            <span id="user-name"></span>
+                        </li>
                     </ul>
                     <div class="my-cart">
                         <div class="cart-top">
@@ -189,13 +191,14 @@
                                 <input name="confirm-password" type="text" class="form-control" id="confirm-password">
                                 <span></span>
                             </div>
+                            <div class="modal-footer create-account">
+                                <button type="button" class="btn btn-cancel" data-bs-dismiss="modal">Сancell</button>
+                                <!-- <button type="button" class="btn  btn-reg-right">Next</button> -->
+                                <button type="button" class="btn  btn-reg-right">Submit</button>
+                            </div>
                         </form>
                     </div>
-                    <div class="modal-footer create-account">
-                        <button type="button" class="btn btn-cancel" data-bs-dismiss="modal">Сancell</button>
-                        <!-- <button type="button" class="btn  btn-reg-right">Next</button> -->
-                        <button type="button" class="btn  btn-reg-right">Submit</button>
-                    </div>
+
                 </div>
             </div>
         </div>
@@ -211,12 +214,9 @@
 
         </section>
         <main class="main-register center">
-
             <h1 class="customer">Customer Login</h1>
             <div class="main-form">
-                <!-- action="#" method="get" -->
                 <form name="form-page-reg-1" class="register">
-                    <!-- <div class="reg-left"> -->
                     <h3>Registered Customers</h3>
                     <p class="have-ac">If you have an account, sign in with your email address.</p>
 
@@ -227,56 +227,34 @@
                     <input class="input-left" type="password" placeholder="Your Name" id="psw" name="psw" required>
                     <span class="span-password"></span>
                     <div class="btn-left">
-                        <!-- <button type="button" class="sign-in-btn"><a class="btn-left-a" href="./index.html">Sign
-                                in</a></button> -->
-                        <button type="button" class="sign-in-btn">Sign in</button>
+                        <button type="submit" class="sign-in-btn">Sign in</button>
                         <a class="forgot-passw" href="#">Forgot Your Password?</a>
                     </div>
-                    <!-- </div> -->
                 </form>
-                <!-- action="#" method="get" -->
                 <form class="none " name="form-page-reg-pass-recovery">
-                    <!-- <div class="reg-left"> -->
                     <h3>Password Recovery</h3>
-                    <!-- <p id="instructions" class="none">Instructions on password recovery were sent to<br> the specified
-                        e-mail.<br>
-                        You will receive an email shortly.</p> -->
-
-
                     <label class="label-left" for="email">Enter your email<span></span></label>
                     <input class="input-left" type="text" placeholder="Email" id="text1" name="email" required>
                     <span class="span-recovery"></span>
                     <div class="btn-left">
-                        <!-- <button type="button" class="sign-in-btn"><a class="btn-left-a" href="#">Resume</a></button> -->
                         <button type="button" class="sign-in-btn">Resume</button>
-                        <!-- <a href="#">Forgot Your Password?</a> -->
                     </div>
-                    <!-- </div> -->
+
                 </form>
                 <p id="instructions" class="none">Instructions on password recovery were sent to<br> the specified
                     e-mail.<br>
                     You will receive an email shortly.</p>
                 <form action="#" method="get" name="form-page-reg-2" class="create-account">
-                    <!-- <div class="reg-right"> -->
                     <h3>New Customer?</h3>
                     <ul class="have-ac">Creating an account has many benefits: <br>
                         <li id="first-li" class="text">Check out faster</li>
                         <li class="text">Keep more than one address</li>
                         <li class="text">Track orders and more</li>
                     </ul>
-                    <!-- <button type="button" class="btn-reg-right">Create An Account</button> -->
                     <button type="button" class="btn btn-primary btn-reg-right" data-bs-toggle="modal"
                         data-bs-target="#exampleModal" data-bs-whatever="@mdo">Create An Account</button>
-                    <!-- <span class="span-create-account"></span> -->
-                    <!-- </div> -->
-                </form>
-                <!-- <div class="modal-window">
 
-                    <button type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#exampleModal"
-                    data-bs-whatever="@fat">Open modal for @fat</button>
-                <button type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#exampleModal"
-                    data-bs-whatever="@getbootstrap">Open modal for @getbootstrap</button>
-                </div> -->
+                </form>
             </div>
         </main>
         <section class="bg-page-2-3-4-ten-cont">
@@ -415,26 +393,20 @@
 
 
     </div>
-
-    
-    <!-- <script src="lib/getGoods.js"></script> -->
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
         integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"
         crossorigin="anonymous"></script>
-
-    <!-- <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.1/dist/js/bootstrap.min.js"
-        integrity="sha384-skAcpIdS7UcVUC05LJ9Dxay8AXcDYfBJqt1CJ85S/CFujBsIzCIv+l9liuYLaMQ/"
-        crossorigin="anonymous"></script> -->
 
     <script src="lib/wow.min.js"></script>
     <script>new WOW().init();</script>
 
     <script src="https://unpkg.com/swiper@7/swiper-bundle.min.js"></script>
     <script src="lib/searchAndCart.js"></script>
-    <script src="lib/pageRegister.js"></script>
+
     <script src="lib/add_in_basket.js"></script>
-    <script src="lib/filter.js"></script>
-    <!-- <script src="lib/my-cart-result.js"></script> -->
+    <script src="lib/pageRegister.js"></script>
+    <script src="lib/userName.js"></script>
+
 </body>
 
 </html>

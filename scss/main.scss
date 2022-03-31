@@ -2452,6 +2452,16 @@ body {
                             top: 25px;
                             right: 62px;
                         }
+                        #user-name {
+                            background-color: #0156ff;
+                            padding: 5px 7px;
+                            border-radius: 15px;
+                            color: white;
+                            font-size: 10px;
+                            position: absolute;
+                            top: 60px;
+                            right: 0px;
+                        }
                     }
                 }
             }
@@ -3057,6 +3067,23 @@ body {
 }
 
 @media screen and (max-width: 768px) {
+    body {
+        .wrapper {
+            .first-container {
+                header {
+                    .top-2 {
+                        .search {
+                            #user-name {
+                                top: 45px;
+                                right: 0px;
+                            }
+                        }
+                    }
+                }
+            }
+        }
+    }
+
     .first-container .my-search .gg {
         height: 44px;
     }

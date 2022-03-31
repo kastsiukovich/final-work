@@ -4081,6 +4081,17 @@ body .wrapper .first-container header .top-2 .search #counter-basket-result {
   right: 62px;
 }
 
+body .wrapper .first-container header .top-2 .search #user-name {
+  background-color: #0156ff;
+  padding: 5px 7px;
+  border-radius: 15px;
+  color: white;
+  font-size: 10px;
+  position: absolute;
+  top: 60px;
+  right: 0px;
+}
+
 .preloader {
   position: fixed;
   left: 0;
@@ -4746,6 +4757,10 @@ body .wrapper .first-container header .top-2 .search #counter-basket-result {
 }
 
 @media screen and (max-width: 768px) {
+  body .wrapper .first-container header .top-2 .search #user-name {
+    top: 45px;
+    right: 0px;
+  }
   .first-container .my-search .gg {
     height: 44px;
   }
