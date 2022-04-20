@@ -1,5 +1,6 @@
 @import "./nullstyle";
 @import "./register";
+@import "./contact-us";
 
 body {
     font-family: "Alef", sans-serif;
@@ -685,9 +686,7 @@ header hr {
     justify-content: space-between;
     margin-bottom: 18px;
 }
-.three-container .cards .three-container-content-wrapper {
-    // width: auto;
-}
+
 .products-container .cards .card .item,
 .three-container .cards .card .item,
 .four-container .cards .card .item,

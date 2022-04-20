@@ -80,13 +80,7 @@ body {
             }
          }
       }
-      // .modal-window {
-      //    // z-index: 200;
-      //    // margin-top: 400px;
-      //    .selector-for-some-widget {
-      //       box-sizing: content-box;
-      //    }
-      // }
+
       .register {
          .way {
             padding-top: 157px;
@@ -178,23 +172,7 @@ body {
                         background-color: white;
                         color: $color_blue;
                      }
-                     // .btn-left-a {
-                     //    @include btn(Poppins, 600, 14px, 21px, #ffffff, 14px, #0156ff, 50px);
-                     //    width: 151px;
-                     //    padding-left: 38px;
-                     //    padding-right: 38px;
-                     //    display: block;
-                     //    // background-color: $color_blue;
-
-                     //    border: 1px solid $color_blue;
-                     //    transition: 0.5s ease-in-out;
-                     //    text-decoration: none;
-                     //    color: #ffffff;
-                     //    &:hover {
-                     //       background-color: white;
-                     //       color: $color_blue;
-                     //    }
-                     // }
+                   
                   }
                   > a {
                      font-family: Poppins;
@@ -249,9 +227,7 @@ body {
                      color: $color_blue;
                   }
                }
-               // .btn-reg-right{
-
-               // }
+              
             }
          }
       }

@@ -1,0 +1,110 @@
+// page contact us
+$color_black: #000000;
+$color_blue: #0156FF;
+$color_red: #C94D3F;
+$color_grey: #A2A6B0;
+@mixin font($ff, $fst, $fw, $fs, $lh) {
+   font-family:$ff;
+   font-style: $fst;
+   font-weight: $fw;
+   font-size: $fs;
+   line-height: $lh;
+}
+@mixin border($b, $line, $bc, $pad, $brad, $wid){
+   border: $b $line $bc;
+   padding: $pad;
+   border-radius: $brad;
+   width: $wid;
+}
+body{
+   font-family: "Alef", sans-serif;
+   font-family: "Poppins", sans-serif;
+   font-family: "Roboto", sans-serif;
+   .wrapper{
+      .contact-us{
+         .contact-us-content{
+            :nth-child(3){
+               margin-bottom: 21px;
+            }
+            h3{
+               @include font("Poppins", normal, 600, 32px, 48px);
+               color: $color_black;
+               margin: 19px 0 12px 5px;
+            }
+            p{
+               @include font("Poppins", normal, 300, 16px, 30px);
+               color: $color_black;
+               margin-bottom: 5px;
+            }
+            .main-form{
+               .first-label{
+                  display: flex;
+                  flex-direction: column;
+                  .label-left{
+                     @include font("Poppins", normal, 600, 13px, 210%);
+                     color: $color_black;
+                     margin-bottom: 8px;
+                     >span{
+                        color: $color_red; 
+                     }
+                  }
+                  .input-left{
+                     @include border(1px, solid, $color_grey, 13px 0, 4px, 449px);
+                     padding-left: 17px;
+                  }
+                
+               }
+               .first-label{
+                  display: flex;
+                  flex-direction: column;
+                  .label-right{
+                     @include font("Poppins", normal, 600, 13px, 210%);
+                     color: $color_black;
+                     margin-bottom: 8px;
+                     >span{
+                        color: $color_red; 
+                     }
+                  }
+                  .input-right{
+                     @include border(1px, solid, $color_grey, 13px 0, 4px, 449px);
+                     padding-left: 17px;
+                  }
+                 
+               }
+              
+               .input-number{
+                  @include border(1px, solid, $color_grey, 13px 0, 4px, 449px);
+                  padding-left: 17px;
+               }
+               .coment{
+                  @include font("Poppins", normal, 600, 13px, 210%);
+                  color: $color_black;
+                  margin-bottom: 8px;
+                  >span{
+                     color: $color_red; 
+                  }
+               }
+               .your-coment{
+                  @include border(1px, solid, $color_grey, 13px 0, 4px, 925px);
+                  padding-left: 17px;
+                  height: 236px;
+                  
+               }
+               .btn-contact-us{
+
+               }
+            }
+         }
+         .nav-contact-us{
+            .contact-info{
+               .contact-img{
+
+               }
+               .contact-info{
+
+               }
+            }
+         }
+      }
+   }
+}

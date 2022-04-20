@@ -542,6 +542,131 @@ body {
   font-family: "Roboto", sans-serif;
 }
 
+body .wrapper .contact-us .contact-us-content :nth-child(3) {
+  margin-bottom: 21px;
+}
+
+body .wrapper .contact-us .contact-us-content h3 {
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 32px;
+  line-height: 48px;
+  color: #000000;
+  margin: 19px 0 12px 5px;
+}
+
+body .wrapper .contact-us .contact-us-content p {
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 300;
+  font-size: 16px;
+  line-height: 30px;
+  color: #000000;
+  margin-bottom: 5px;
+}
+
+body .wrapper .contact-us .contact-us-content .main-form .first-label {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+}
+
+body .wrapper .contact-us .contact-us-content .main-form .first-label .label-left {
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 13px;
+  line-height: 210%;
+  color: #000000;
+  margin-bottom: 8px;
+}
+
+body .wrapper .contact-us .contact-us-content .main-form .first-label .label-left > span {
+  color: #C94D3F;
+}
+
+body .wrapper .contact-us .contact-us-content .main-form .first-label .input-left {
+  border: 1px solid #A2A6B0;
+  padding: 13px 0;
+  border-radius: 4px;
+  width: 449px;
+  padding-left: 17px;
+}
+
+body .wrapper .contact-us .contact-us-content .main-form .first-label {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+}
+
+body .wrapper .contact-us .contact-us-content .main-form .first-label .label-right {
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 13px;
+  line-height: 210%;
+  color: #000000;
+  margin-bottom: 8px;
+}
+
+body .wrapper .contact-us .contact-us-content .main-form .first-label .label-right > span {
+  color: #C94D3F;
+}
+
+body .wrapper .contact-us .contact-us-content .main-form .first-label .input-right {
+  border: 1px solid #A2A6B0;
+  padding: 13px 0;
+  border-radius: 4px;
+  width: 449px;
+  padding-left: 17px;
+}
+
+body .wrapper .contact-us .contact-us-content .main-form .input-number {
+  border: 1px solid #A2A6B0;
+  padding: 13px 0;
+  border-radius: 4px;
+  width: 449px;
+  padding-left: 17px;
+}
+
+body .wrapper .contact-us .contact-us-content .main-form .coment {
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 13px;
+  line-height: 210%;
+  color: #000000;
+  margin-bottom: 8px;
+}
+
+body .wrapper .contact-us .contact-us-content .main-form .coment > span {
+  color: #C94D3F;
+}
+
+body .wrapper .contact-us .contact-us-content .main-form .your-coment {
+  border: 1px solid #A2A6B0;
+  padding: 13px 0;
+  border-radius: 4px;
+  width: 925px;
+  padding-left: 17px;
+  height: 236px;
+}
+
+body {
+  font-family: "Alef", sans-serif;
+  font-family: "Poppins", sans-serif;
+  font-family: "Roboto", sans-serif;
+}
+
 .wrapper {
   max-width: 1920px;
   width: 100%;
